@@ -1,0 +1,248 @@
+duration = 5000
+
+-- single-line comment.
+
+MyStartAttitude = { { 1, 0, 0}, {0, 1, 0}, {0, 0, 1 } }
+
+entityScene = {
+		entity_name = "Scene_Untitled", type = SCENE, template_name = "", lt_grp = 0, srt_grp = 0, usr_flg = 0, spatialprops = {
+			pos = { 0, 0, 0
+			}, orient = MyStartAttitude
+		}, up = Y_AXIS, front = Z_AXIS, ambient = { 2, 2, 2
+		}}
+
+engineEffectTemplate = {
+	type = PSYS, template_name = "gf_li_smallengine02_fire",
+	lt_grp = 0, srt_grp = 0, usr_flg = 0, flags = LIT_DYNAMIC + LIT_AMBIENT,
+	spatialprops = { pos = { 0, 0, 0 }, orient = MyStartAttitude },
+	psysprops = {sparam = 0}
+}
+
+entityEngine1 = engineEffectTemplate
+entityEngine1.entity_name = "FX_smallengine1"
+
+entities = {	{
+		entity_name="starsphere_Li04",
+		type=COMPOUND,
+		template_name="starsphere_intro7",
+		lt_grp=0,
+		srt_grp=-100,
+		usr_flg=1,
+		flags=LIT_DYNAMIC,
+		spatialprops={
+			pos={
+				5,
+				0,
+				-70
+			},
+			orient={
+				{
+					-0.09350700000000001,
+					0,
+					0.995619
+				},
+				{
+					0,
+					1,
+					0
+				},
+				{
+					-0.995619,
+					0,
+					-0.09350700000000001
+				}
+			}
+		},
+		userprops={
+			category="Prop"
+		}
+	},
+	{
+		entity_name="starsphere_Bw06_132",
+		type=COMPOUND,
+		template_name="starsphere_cfstars2",
+		lt_grp=0,
+		srt_grp=-100,
+		usr_flg=1,
+		flags=LIT_DYNAMIC,
+		spatialprops={
+			pos={
+				5,
+				0,
+				-70
+			},
+			orient={
+				{
+					-0.09350700000000001,
+					0,
+					0.995619
+				},
+				{
+					0,
+					1,
+					0
+				},
+				{
+					-0.995619,
+					0,
+					-0.09350700000000001
+				}
+			}
+		},
+		userprops={
+			category="Prop"
+		}
+	},
+	entityScene,
+{entity_name = "Ship1", type = COMPOUND, template_name = "introship1", lt_grp = 1, srt_grp = 0, usr_flg = 0, flags = LIT_DYNAMIC, spatialprops = {
+			pos = { 5, 0, -70
+			}, orient = MyStartAttitude
+		}, userprops = {
+			category = "Spaceship"
+		}},
+{entity_name = "Monitor_1", type = MONITOR, template_name = "", lt_grp = 0, srt_grp = 0, usr_flg = 0},
+{entity_name = "Camera_2", type = CAMERA, template_name = "", lt_grp = 0, srt_grp = 0, usr_flg = 0, spatialprops = {
+			pos = { 0, 0, 0
+			}, 
+			orient = MyStartAttitude
+		}, cameraprops = {
+			fovh = 17, hvaspect = 1.33, nearplane = 50, farplane = 150000.015625
+		}},
+{entity_name = "Light1", type = LIGHT, template_name = "", lt_grp = 1, srt_grp = 0, usr_flg = 0, spatialprops = {
+			pos = { 0, 0, 0
+			}, orient = MyStartAttitude
+		}, lightprops = {
+			on = Y, color = { 255, 255, 255
+			}, diffuse = { 1, 1, 1
+			}, specular = { 0, 0, 0
+			}, ambient = { 0, 0, 0
+			}, direction = { 0, 0, -1
+			}, range = 10000, cutoff = 98.999977, type = L_DIRECT, theta = 90, atten = { 1, 0, 0
+			}
+		}},
+	{entity_name = "Light2", type = LIGHT, template_name = "", lt_grp = 1, srt_grp = 0, usr_flg = 0, spatialprops = {
+			pos = { 0, 0, 0
+			}, orient = MyStartAttitude
+		}, lightprops = {
+			on = Y, color = { 255, 255, 255
+			}, diffuse = { 1, 1, 1
+			}, specular = { 0, 0, 0
+			}, ambient = { 0, 0, 0
+			}, direction = {
+				-1, 0, 0
+			}, range = 2000, cutoff = 98.999977, type = L_DIRECT, theta = 90, atten = { 1, 0, 0
+			}
+		}},
+	{entity_name = "Light3", type = LIGHT, template_name = "", lt_grp = 1, srt_grp = 0, usr_flg = 0, spatialprops = {
+			pos = { 0, 0, 0
+			}, orient = MyStartAttitude
+		}, lightprops = {
+			on = Y, color = { 255, 255, 255
+			}, diffuse = { 1, 1, 1
+			}, specular = { 0, 0, 0
+			}, ambient = { 0, 0, 0
+			}, direction = {
+				-1, 0, 0
+			}, range = 2000, cutoff = 98.999977, type = L_DIRECT, theta = 90, atten = { 0, 1, 0
+			}
+		}},
+
+	entityEngine1,
+
+	{entity_name = "FX_smallengine2",
+		type = PSYS, template_name = "gf_li_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops = { pos = { 0, 0, 0 }, orient = MyStartAttitude },
+		psysprops = { sparam = 0 }
+	},
+
+	{entity_name = "FX_smallengine3",
+		type = PSYS, template_name = "gf_li_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops = { pos = { 0, 0, 0 }, orient = MyStartAttitude },
+		psysprops = { sparam = 0 }
+	},
+
+	{entity_name = "FX_smallengine4",
+		type = PSYS, template_name = "gf_li_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops = { pos = { 0, 0, 0 }, orient = MyStartAttitude },
+		psysprops = { sparam = 0 }
+	},
+
+	{entity_name = "FX_smallengine5",
+		type = PSYS, template_name = "gf_li_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops = { pos = { 0, 0, 0 }, orient = MyStartAttitude },
+		psysprops = { sparam = 0 }
+	}
+}
+events = {
+	
+	{ 0, SET_CAMERA, { "Monitor_1", "Camera_2" }},
+	
+	{0.03, START_SPATIAL_PROP_ANIM, { "Ship1"},
+		{duration = 2400, target_type = ROOT, spatialprops = {
+				axisrot = { 40000, NEG_Y_AXIS }
+	}}},
+	
+	{0.03, START_SPATIAL_PROP_ANIM, { "Ship1"},
+	{duration = 2400, target_type = ROOT, spatialprops = {
+				axisrot = { 10000, NEG_X_AXIS }
+	}}},
+
+	{0.03, START_SPATIAL_PROP_ANIM, { "Ship1"},
+	{
+		duration = 2400, target_type = ROOT, spatialprops = { axisrot = { 10000, NEG_Z_AXIS } 
+	}}},
+
+	{0, START_PSYS, { "FX_smallengine1"}, {duration = 2400 }},
+	
+	{0, ATTACH_ENTITY, { "FX_smallengine1", "Ship1"},
+	{duration = 2400, offset = { 0, 0, 0
+			}, up = Y_AXIS, front = NEG_Z_AXIS, target_part = "HpEngine01", target_type = HARDPOINT, flags = POSITION + ORIENTATION
+	}},
+
+	{0, START_PSYS, { "FX_smallengine2"}, {duration = 2400 }},
+	{0, ATTACH_ENTITY, {
+			"FX_smallengine2", "Ship1"},
+		{duration = 2400, offset = { 0, 0, 0},
+		up = Y_AXIS, front = NEG_Z_AXIS,
+		target_part = "HpEngine02",
+		target_type = HARDPOINT, flags = POSITION + ORIENTATION
+		}
+	},
+	{0, START_PSYS, { "FX_smallengine3"}, {duration = 2400 }},
+	{0, ATTACH_ENTITY, {
+			"FX_smallengine3", "Ship1"},
+		{duration = 2400, offset = { 0, 0, 0},
+		up = Y_AXIS, front = NEG_Z_AXIS,
+		target_part = "HpEngine03",
+		target_type = HARDPOINT, flags = POSITION + ORIENTATION
+		}
+	},
+
+	{0, START_PSYS, { "FX_smallengine4"}, {duration = 2400 }},
+	{0, ATTACH_ENTITY, {
+			"FX_smallengine4", "Ship1"},
+		{duration = 2400, offset = { 0, 0, 0},
+		up = Y_AXIS, front = NEG_Z_AXIS,
+		target_part = "HpEngine04",
+		target_type = HARDPOINT, flags = POSITION + ORIENTATION
+		}
+	},
+
+	{0, START_PSYS, { "FX_smallengine5"}, {duration = 2400 }},
+	{0, ATTACH_ENTITY, {
+			"FX_smallengine5", "Ship1"},
+		{duration = 2400, offset = { 0, 0, 0},
+		up = Y_AXIS, front = NEG_Z_AXIS,
+		target_part = "HpEngine05",
+		target_type = HARDPOINT, flags = POSITION + ORIENTATION
+		}
+	}
+}
