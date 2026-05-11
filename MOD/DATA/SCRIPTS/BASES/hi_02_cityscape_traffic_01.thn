@@ -1,0 +1,5710 @@
+duration = 60.000;
+
+entities =
+{
+
+	{
+		entity_name = "Layer_Hi_02_City_Launch",
+		type = SCENE,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		up = Y_AXIS,
+		front = Z_AXIS,
+		ambient = { 0, 0, 0 }
+	},
+
+	{
+		entity_name = "Ship_Park_01",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { -57.31088, 0, 1517.487 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		}
+	},
+
+	{
+		entity_name = "Ship_Park_02",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { -39.79836, 0, 1517.395 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		}
+	},
+
+	{
+		entity_name = "Ship_Park_03",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { -25.5347, 0, 1532 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		}
+	},
+
+	{
+		entity_name = "Ship_Park_04",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { -6.558228, 0, 1525.105 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		}
+	},
+
+	{
+		entity_name = "Ship_Park_05",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 9.467437, 0, 1525.105 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		}
+	},
+
+	{
+		entity_name = "Ship_Park_06",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 38.11547, 0, 1536.026 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		}
+	},
+
+	{
+		entity_name = "Ship_Park_07",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 61.28657, 0, 1522.148 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		}
+	},
+
+	{
+		entity_name = "Ship_Park_08",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 80.73694, 0, 1536.573 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		}
+	},
+
+	{
+		entity_name = "Ship_Park_09",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 104.8376, 0, 1537.374 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		}
+	},
+
+	{
+		entity_name = "Ship_Park_10",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 127.9386, 0, 1524.568 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		}
+	},
+
+	{
+		entity_name = "Ship_Raba_1",
+		type = COMPOUND,
+		template_name = "rtcprop_raba",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -57.31088, 0, 1523.224 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+			loadout = "corsair_raba_d10-d18",
+			running_lights = "true",
+		}
+	},
+	{
+		entity_name = "Ship_Raba_1_trail_1",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Raba_1_trail_2",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Raba_1_trail_3",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Raba_1_trail_4",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Raba_1_engine_1",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Raba_1_engine_2",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Raba_1_engine_3",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Raba_1_engine_4",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "Ship_Co_Gunboat_trail_1",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Co_Gunboat_engine_fire_1",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Co_Gunboat_trail_2",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Co_Gunboat_engine_fire_2",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Co_Gunboat_1",
+		type = COMPOUND,
+		template_name = "rtcprop_dsy_imperator",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -25.5347, 0, 1527.255 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+			loadout = "Corsair_Gunboat_Loadout",
+			running_lights = "true",
+		}
+	},
+
+	{
+		entity_name = "Ship_Titan_1",
+		type = COMPOUND,
+		template_name = "rtcprop_p_elite2",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -6.558228, 0, 1525.286 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+			loadout = "fc_c_vhf_mid_l1_d14_d16",
+			running_lights = "true",
+		}
+	},
+
+	{
+		entity_name = "Ship_Titan_2",
+		type = COMPOUND,
+		template_name = "rtcprop_p_elite2",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 38.11547, 0, 1535.413 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+			loadout = "fc_c_vhf_mid_l1_d14_d16",
+			running_lights = "true",
+		}
+	},
+
+	{
+		entity_name = "Ship_Black_Dragon_1",
+		type = COMPOUND,
+		template_name = "rtcprop_dsy_blackdragon",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 61.28657, 0, 335.7485 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+			loadout = "fc_h_vhf_mid_l1_d14_d16",
+			running_lights = "true",
+		}
+	},
+
+	{
+		entity_name = "Ship_Correo_1",
+		type = COMPOUND,
+		template_name = "rtcprop_mercatante",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 80.73694, 0, 1529.144 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+			loadout = "fc_c_fr_l1_d1-d9",
+			running_lights = "true",
+		}
+	},
+
+	{
+		entity_name = "Ship_Corsair_Train_1",
+		type = COMPOUND,
+		template_name = "rtcprop_dsy_bsgalactica",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 104.8376, 0, 1526.72 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+			loadout = "corsair_train_d10-d19",
+			running_lights = "true",
+		}
+	},
+
+	{
+		entity_name = "Ship_PirateTransport_1",
+		type = COMPOUND,
+		template_name = "rtcprop_dsy_pi_transport",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { -39.79836, 0, 335.7485 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+			loadout = "pirate_transport_l1_d25",
+			running_lights = "true",
+		}
+	},
+
+	{
+		entity_name = "Ship_Gladiator_1",
+		type = COMPOUND,
+		template_name = "rtcprop_dsy_gladiator",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 9.467437, 0, 1525.375 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+			loadout = "fc_c_hf2_mid_l1_d10_d13",
+			running_lights = "true",
+		}
+	},
+
+	{
+		entity_name = "Ship_Correo_2",
+		type = COMPOUND,
+		template_name = "rtcprop_mercatante",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 127.9386, 0, 1542.666 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+			loadout = "fc_c_fr_l1_d1-d9",
+			running_lights = "true",
+		}
+	},
+
+	{
+		entity_name = "Ship_Park_11",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 153.8204, 0, 1548.2 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		}
+	},
+
+	{
+		entity_name = "Ship_Park_12",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 184.6152, 0, 1548.2 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		}
+	},
+
+	{
+		entity_name = "Ship_Park_13",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 215.5349, 0, 1553.649 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		}
+	},
+
+	{
+		entity_name = "Ship_Legionnaire_1",
+		type = COMPOUND,
+		template_name = "rtcprop_dsy_co_fighter2",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 153.8204, 0, 1549.633 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+			loadout = "fc_c_lf_easy_l1_d1_d4",
+			running_lights = "true",
+		}
+	},
+
+	{
+		entity_name = "Traffic_Zone_01",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 71.89816, 0 },
+			orient = { {  0.996427,  0.000000, -0.084463 },
+					   {  0.000000,  1.000000,  0.000000 },
+					   {  0.084463,  0.000000,  0.996427 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN,{216.351685,0.000000,1113.559204}, {1.000000,0.000000,0.000000,0.000000}, {-91.511948,0.000000,-763.345154}, {1.000000,0.000000,0.000000,0.000000}, "
+		}
+	},
+
+	{
+		entity_name = "Traffic_Zone_02_Bottom",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { -10.97021, 35.42027, -235.6466 },
+			orient = { {  0.986044,  0.000000, -0.166487 },
+					   {  0.000000,  1.000000,  0.000000 },
+					   {  0.166487,  0.000000,  0.986044 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN,{1012.669067,0.000000,264.601959}, {1.000000,0.000000,0.000000,0.000000}, {-1080.230103,0.000000,-102.584854}, {1.000000,0.000000,0.000000,0.000000}, "
+		}
+	},
+
+	{
+		entity_name = "Traffic_Zone_03_Top",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 133.5196, -425.7503 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN,{-763.325256,0.000000,332.361725}, {1.000000,0.000000,0.000000,0.000000}, {764.541443,0.000000,-149.324310}, {1.000000,0.000000,0.000000,0.000000}, "
+		}
+	},
+
+	{
+		entity_name = "Traffic_Zone_04",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 88.06004, -36.21228 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN,{-511.821106,0.000000,-696.010803}, {1.000000,0.000000,0.000000,0.000000}, {651.941895,0.000000,-696.010803}, {1.000000,0.000000,0.000000,0.000000}, "
+		}
+	},
+
+	{
+		entity_name = "Ship_Drone_1",
+		type = COMPOUND,
+		template_name = "rtcprop_k_freighter",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 215.5349, 0, 335.7485 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+			loadout = "ku_n_freighter_l1_d1-d9",
+			running_lights = "true",
+		}
+	},
+
+	{
+		entity_name = "Ship_Correo_2_trail_1",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Correo_2_trail_2",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Correo_2_trail_3",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Correo_2_engine_1",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Correo_2_engine_2",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Correo_2_engine_3",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "Ship_Titan_2_engine_trail_1",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Titan_2_engine_trail_2",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Titan_2_engine_trail_3",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Titan_2_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Titan_2_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "Ship_Black_Dragon_1_gf_ci_smallengine01_trail_3",
+		type = PSYS,
+		template_name = "gf_ci_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Black_Dragon_1_gf_ci_smallengine01_fire_3",
+		type = PSYS,
+		template_name = "gf_ci_smallengine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "Ship_Correo_1_engine_trail_1",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Correo_1_engine_trail_2",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Correo_1_engine_trail_3",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Correo_1_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Correo_1_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Correo_1_engine_fire_3",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "Ship_Drone_1_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_ku_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Drone_1_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_ku_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Drone_1_engine_trail_1",
+		type = PSYS,
+		template_name = "gf_ku_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Drone_1_engine_trail_2",
+		type = PSYS,
+		template_name = "gf_ku_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "Ship_Titan_1_engine_trail_1",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Titan_1_engine_trail_2",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Titan_1_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Titan_1_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "Ship_PirateTransport_1_engine_trail_1",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_PirateTransport_1_engine_trail_2",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_PirateTransport_1_engine_fire_1",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_PirateTransport_1_engine_fire_2",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "Ship_Gladiator_1_engine_trail_1",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Gladiator_1_engine_trail_2",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Gladiator_1_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Gladiator_1_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_trail_1",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_trail_2",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_trail_3",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_trail_4",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_trail_5",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_trail_6",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_trail_7",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_trail_8",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_fire_1",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_fire_2",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_fire_3",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_fire_4",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_fire_5",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_fire_6",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_fire_7",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_fire_8",
+		type = PSYS,
+		template_name = "dsy_hn_htrans_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "Ship_Legionnaire_1_engine_trail_1",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Legionnaire_1_engine_trail_2",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Legionnaire_1_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Legionnaire_1_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "Ship_Legionnaire_2_engine_trail_1",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Legionnaire_2_engine_trail_2",
+		type = PSYS,
+		template_name = "gf_co_smallengine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Legionnaire_2_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_co_smallengine02",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_Legionnaire_2_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_co_smallengine02",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+
+	{
+		entity_name = "Ship_Legionnaire_2",
+		type = COMPOUND,
+		template_name = "rtcprop_dsy_co_fighter2",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 104.8376, 0, 1539.082 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+			loadout = "fc_c_lf_easy_l1_d1_d4",
+			running_lights = "true",
+		}
+	},
+
+	{
+		entity_name = "Ship_Drone_1_engine_ku_small_1",
+		type = SOUND,
+		template_name = "engine_ku_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+
+	{
+		entity_name = "Ship_Titan_1_engine_ku_small_2",
+		type = SOUND,
+		template_name = "engine_co_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+
+	{
+		entity_name = "Ship_Black_Dragon_1_engine_nd_small_4",
+		type = SOUND,
+		template_name = "engine_nd_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+
+	{
+		entity_name = "Ship_Co_Gunboat_1_engine_ku_small_5",
+		type = SOUND,
+		template_name = "engine_co_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+
+	{
+		entity_name = "Ship_Titan_2_engine_nd_small_6",
+		type = SOUND,
+		template_name = "engine_co_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+
+	{
+		entity_name = "Ship_Gladiator_1_engine_li_small_10",
+		type = SOUND,
+		template_name = "engine_co_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+
+	{
+		entity_name = "Ship_Raba_1_engine_sound_1",
+		type = SOUND,
+		template_name = "engine_co_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = -22,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_Raba_1_engine_sound_2",
+		type = SOUND,
+		template_name = "engine_co_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = -22,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_Raba_1_engine_sound_3",
+		type = SOUND,
+		template_name = "engine_co_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = -22,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_Raba_1_engine_sound_4",
+		type = SOUND,
+		template_name = "engine_co_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = -22,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_sound_1",
+		type = SOUND,
+		template_name = "engine_co_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = -22,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_sound_2",
+		type = SOUND,
+		template_name = "engine_co_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = -22,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_sound_3",
+		type = SOUND,
+		template_name = "engine_co_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = -22,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_Corsair_Train_1_engine_sound_4",
+		type = SOUND,
+		template_name = "engine_co_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = -22,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+
+	{
+		entity_name = "Camera_0",
+		type = CAMERA,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = REFERENCE,
+		spatialprops =
+		{
+			pos = { 4.244057, 26.48314, 85.7356 },
+			orient = { {  0.993792,  0.000000, -0.111254 },
+					   { -0.000607,  0.999985, -0.005419 },
+					   {  0.111252,  0.005453,  0.993777 } }
+		},
+		cameraprops =
+		{
+			fovh = 60,
+			hvaspect = 1.333333,
+			nearplane = 0.1,
+			farplane = 100000
+		}
+	}
+};
+
+events =
+{  
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Co_Gunboat_trail_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Co_Gunboat_trail_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Co_Gunboat_engine_fire_1"}, {
+            duration = 1,
+            psysprops = {sparam = 1},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Co_Gunboat_engine_fire_2"}, {
+            duration = 1,
+            psysprops = {sparam = 1},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Raba_1_trail_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Raba_1_trail_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Raba_1_trail_3"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Raba_1_trail_4"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Correo_2_trail_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Correo_2_trail_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Correo_2_trail_3"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Titan_2_engine_trail_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Titan_2_engine_trail_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Black_Dragon_1_gf_ci_smallengine01_trail_3"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Correo_1_engine_trail_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Correo_1_engine_trail_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Correo_1_engine_trail_3"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Titan_1_engine_trail_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Titan_1_engine_trail_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_PirateTransport_1_engine_trail_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_PirateTransport_1_engine_trail_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Gladiator_1_engine_trail_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Gladiator_1_engine_trail_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_trail_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_trail_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_trail_3"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_trail_4"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_trail_5"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_trail_6"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_trail_7"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_trail_8"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Legionnaire_1_engine_trail_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Legionnaire_1_engine_trail_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Legionnaire_2_engine_trail_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Legionnaire_2_engine_trail_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Raba_1_engine_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Raba_1_engine_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Raba_1_engine_3"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Raba_1_engine_4"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Correo_2_engine_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Correo_2_engine_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Correo_2_engine_3"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Titan_2_engine_fire_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Titan_2_engine_fire_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Black_Dragon_1_gf_ci_smallengine01_fire_3"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Correo_1_engine_fire_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Correo_1_engine_fire_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Correo_1_engine_fire_3"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Drone_1_engine_fire_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Drone_1_engine_fire_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Drone_1_engine_trail_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Drone_1_engine_trail_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Titan_1_engine_fire_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Titan_1_engine_fire_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_PirateTransport_1_engine_fire_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_PirateTransport_1_engine_fire_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Gladiator_1_engine_fire_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Gladiator_1_engine_fire_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_fire_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_fire_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_fire_3"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_fire_4"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_fire_5"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_fire_6"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_fire_7"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Corsair_Train_1_engine_fire_8"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Legionnaire_1_engine_fire_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Legionnaire_1_engine_fire_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Legionnaire_2_engine_fire_1"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0, START_PSYS_PROP_ANIM, {"Ship_Legionnaire_2_engine_fire_2"}, {
+            duration = 1,
+            psysprops = {sparam = 0.89},
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = {{0, 0, 0, 0}, {1, 1, 0, 0}}
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0.000, START_PATH_ANIMATION, { "Ship_Correo_1", "Traffic_Zone_04" },
+		{
+			duration = 12.029,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		0.000, START_SOUND, { "Ship_Co_Gunboat_1_engine_ku_small_5" },
+		{
+			duration = 60.000,
+			flags = LOOP
+		}
+	},
+
+	{
+		0.000, START_SOUND, { "Ship_Titan_1_engine_ku_small_2" },
+		{
+			duration = 58.250,
+			flags = LOOP
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Titan_2_engine_nd_small_6", "Ship_Titan_2" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Raba_1_engine_sound_1", "Ship_Raba_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Raba_1_engine_sound_2", "Ship_Raba_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Raba_1_engine_sound_3", "Ship_Raba_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Raba_1_engine_sound_4", "Ship_Raba_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_sound_1", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_sound_2", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_sound_3", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_sound_4", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Raba_1_trail_1", "Ship_Raba_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Raba_1_trail_2", "Ship_Raba_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Raba_1_trail_3", "Ship_Raba_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Raba_1_trail_4", "Ship_Raba_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Raba_1_engine_1", "Ship_Raba_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Raba_1_engine_2", "Ship_Raba_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Raba_1_engine_3", "Ship_Raba_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Raba_1_engine_4", "Ship_Raba_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "Ship_Raba_1_trail_1" },
+		{
+			duration = 60.500
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Raba_1_trail_2" },
+		{
+			duration = 60.500
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Raba_1_trail_3" },
+		{
+			duration = 60.500
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Raba_1_trail_4" },
+		{
+			duration = 60.500
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Raba_1_engine_1" },
+		{
+			duration = 60.500
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Raba_1_engine_2" },
+		{
+			duration = 60.500
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Raba_1_engine_3" },
+		{
+			duration = 60.500
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Raba_1_engine_4" },
+		{
+			duration = 60.500
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Gladiator_1_engine_li_small_10", "Ship_Gladiator_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, START_PATH_ANIMATION, { "Ship_Drone_1", "Traffic_Zone_01" },
+		{
+			duration = 15.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Titan_1_engine_ku_small_2", "Ship_Titan_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "",
+			target_type = ROOT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, START_PATH_ANIMATION, { "Ship_Legionnaire_2", "Traffic_Zone_03_Top" },
+		{
+			duration = 14.312,
+			start_percent = 1,
+			stop_percent = 0,
+			offset = { 0, 15, 0 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		0.000, START_PATH_ANIMATION, { "Ship_Raba_1", "Traffic_Zone_03_Top" },
+		{
+			duration = 16.562,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, -10, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.371795,  0.000000,  0.636364 },
+					{  1.000000,  1.000000,  0.666667,  0.000000 },
+				}
+			},
+			pcurve_period = -1000
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Drone_1_engine_fire_1", "Ship_Drone_1" },
+		{
+			duration = 120.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine01",
+			target_type = HARDPOINT,
+			flags = POSITION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Drone_1_engine_fire_2", "Ship_Drone_1" },
+		{
+			duration = 120.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine02",
+			target_type = HARDPOINT,
+			flags = POSITION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Drone_1_engine_trail_1", "Ship_Drone_1" },
+		{
+			duration = 14.800,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine01",
+			target_type = HARDPOINT,
+			flags = POSITION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Drone_1_engine_trail_2", "Ship_Drone_1" },
+		{
+			duration = 14.800,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine02",
+			target_type = HARDPOINT,
+			flags = POSITION
+		}
+	},
+
+	{
+		0.000, START_SOUND, { "Ship_Drone_1_engine_ku_small_1" },
+		{
+			duration = 15.000,
+			flags = LOOP
+		}
+	},
+
+	{
+		0.000, START_SOUND, { "Ship_Titan_2_engine_nd_small_6" },
+		{
+			duration = 15.375,
+			flags = LOOP
+		}
+	},
+
+	{
+		0.000, START_PATH_ANIMATION, { "Ship_Black_Dragon_1", "Traffic_Zone_02_Bottom" },
+		{
+			duration = 10.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 15, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.378205,  0.000000,  0.434783 },
+					{  1.000000,  1.000000,  0.470588,  0.000000 },
+				}
+			},
+			pcurve_period = -1000
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Co_Gunboat_1_engine_ku_small_5", "Ship_Co_Gunboat_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Co_Gunboat_trail_1", "Ship_Co_Gunboat_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Co_Gunboat_engine_fire_1", "Ship_Co_Gunboat_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Co_Gunboat_trail_2", "Ship_Co_Gunboat_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Co_Gunboat_engine_fire_2", "Ship_Co_Gunboat_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, START_PSYS, { "Ship_Co_Gunboat_trail_1" },
+		{
+			duration = 60.812
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Co_Gunboat_engine_fire_1" },
+		{
+			duration = 60.812
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Co_Gunboat_trail_2" },
+		{
+			duration = 60.812
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Co_Gunboat_engine_fire_2" },
+		{
+			duration = 60.812
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "Ship_PirateTransport_1_engine_trail_1" },
+		{
+			duration = 60.812
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_PirateTransport_1_engine_trail_2" },
+		{
+			duration = 60.812
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_PirateTransport_1_engine_fire_1" },
+		{
+			duration = 60.812
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_PirateTransport_1_engine_fire_2" },
+		{
+			duration = 60.812
+		}
+	},
+	
+	{
+		0.000, START_PSYS, { "Ship_Gladiator_1_engine_trail_1" },
+		{
+			duration = 60.812
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Gladiator_1_engine_trail_2" },
+		{
+			duration = 60.812
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Gladiator_1_engine_fire_1" },
+		{
+			duration = 60.812
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Gladiator_1_engine_fire_2" },
+		{
+			duration = 60.812
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Drone_1_engine_ku_small_1", "Ship_Drone_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "",
+			target_type = ROOT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Titan_1_engine_trail_1", "Ship_Titan_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Titan_1_engine_trail_2", "Ship_Titan_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Titan_1_engine_fire_1", "Ship_Titan_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Titan_1_engine_fire_2", "Ship_Titan_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Legionnaire_2_engine_trail_1", "Ship_Legionnaire_2" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Legionnaire_2_engine_trail_2", "Ship_Legionnaire_2" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Legionnaire_2_engine_fire_1", "Ship_Legionnaire_2" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Legionnaire_2_engine_fire_2", "Ship_Legionnaire_2" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Correo_2_trail_1", "Ship_Correo_2" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Correo_2_trail_2", "Ship_Correo_2" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Correo_2_trail_3", "Ship_Correo_2" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Correo_2_engine_1", "Ship_Correo_2" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Correo_2_engine_2", "Ship_Correo_2" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Correo_2_engine_3", "Ship_Correo_2" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Titan_2_engine_trail_1", "Ship_Titan_2" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Titan_2_engine_trail_2", "Ship_Titan_2" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Titan_2_engine_fire_1", "Ship_Titan_2" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Titan_2_engine_fire_2", "Ship_Titan_2" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Black_Dragon_1_gf_ci_smallengine01_trail_3", "Ship_Black_Dragon_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Black_Dragon_1_gf_ci_smallengine01_fire_3", "Ship_Black_Dragon_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Legionnaire_1_engine_trail_1", "Ship_Legionnaire_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Legionnaire_1_engine_trail_2", "Ship_Legionnaire_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Legionnaire_1_engine_fire_1", "Ship_Legionnaire_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Legionnaire_1_engine_fire_2", "Ship_Legionnaire_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_trail_1", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_fire_1", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_trail_2", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_trail_3", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_trail_4", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_trail_5", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine05",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_trail_6", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine06",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_trail_7", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine07",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_trail_8", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine08",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_fire_2", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_fire_3", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_fire_4", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_fire_5", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine05",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_fire_6", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine06",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_fire_7", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine07",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Corsair_Train_1_engine_fire_8", "Ship_Corsair_Train_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine08",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Gladiator_1_engine_trail_1", "Ship_Gladiator_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Gladiator_1_engine_trail_2", "Ship_Gladiator_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Gladiator_1_engine_fire_1", "Ship_Gladiator_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Gladiator_1_engine_fire_2", "Ship_Gladiator_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_PirateTransport_1_engine_trail_1", "Ship_PirateTransport_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_PirateTransport_1_engine_trail_2", "Ship_PirateTransport_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_PirateTransport_1_engine_fire_1", "Ship_PirateTransport_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_PirateTransport_1_engine_fire_2", "Ship_PirateTransport_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Correo_1_engine_trail_1", "Ship_Correo_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Correo_1_engine_trail_2", "Ship_Correo_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Correo_1_engine_trail_3", "Ship_Correo_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Correo_1_engine_fire_1", "Ship_Correo_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Correo_1_engine_fire_2", "Ship_Correo_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Correo_1_engine_fire_3", "Ship_Correo_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_Black_Dragon_1_engine_nd_small_4", "Ship_Black_Dragon_1" },
+		{
+			duration = 60.000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+
+	{
+		0.000, START_PATH_ANIMATION, { "Ship_PirateTransport_1", "Traffic_Zone_04" },
+		{
+			duration = 18.062,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { -30, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		0.000, START_PATH_ANIMATION, { "Ship_Titan_1", "Traffic_Zone_01" },
+		{
+			duration = 15.156,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 10, -15, -5 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1000
+		}
+	},
+
+	{
+		0.000, START_SOUND, { "Ship_Black_Dragon_1_engine_nd_small_4" },
+		{
+			duration = 10.000,
+			flags = LOOP
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "Ship_Titan_1_engine_trail_1" },
+		{
+			duration = 60.000
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Titan_1_engine_trail_2" },
+		{
+			duration = 60.000
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Titan_1_engine_fire_1" },
+		{
+			duration = 60.000
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Titan_1_engine_fire_2" },
+		{
+			duration = 60.000
+		}
+	},
+
+	{
+		0.156, START_PATH_ANIMATION, { "Ship_Titan_2", "Traffic_Zone_02_Bottom" },
+		{
+			duration = 15.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1000
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "Ship_Black_Dragon_1_gf_ci_smallengine01_trail_3" },
+		{
+			duration = 60.198
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Black_Dragon_1_gf_ci_smallengine01_fire_3" },
+		{
+			duration = 60.198
+		}
+	},
+
+	{
+		0.000, START_SOUND, { "Ship_Gladiator_1_engine_li_small_10" },
+		{
+			duration = 9.187,
+			flags = LOOP
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "Ship_Correo_1_engine_trail_1" },
+		{
+			duration = 60.625
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Correo_1_engine_trail_2" },
+		{
+			duration = 60.625
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Correo_1_engine_trail_3" },
+		{
+			duration = 60.625
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "Ship_Legionnaire_2_engine_trail_1" },
+		{
+			duration = 60.062
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Legionnaire_2_engine_trail_2" },
+		{
+			duration = 60.062
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Correo_1_engine_fire_1" },
+		{
+			duration = 60.625
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Correo_1_engine_fire_2" },
+		{
+			duration = 60.625
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Correo_1_engine_fire_3" },
+		{
+			duration = 60.625
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "Ship_Legionnaire_2_engine_fire_1" },
+		{
+			duration = 60.062
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Legionnaire_2_engine_fire_2" },
+		{
+			duration = 60.062
+		}
+	},
+
+	{
+		5.468, START_PATH_ANIMATION, { "Ship_Legionnaire_1", "Traffic_Zone_03_Top" },
+		{
+			duration = 17.031,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, -10, 0 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "Ship_Titan_2_engine_trail_1" },
+		{
+			duration = 60.400
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Titan_2_engine_trail_2" },
+		{
+			duration = 60.400
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Titan_2_engine_fire_1" },
+		{
+			duration = 60.400
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Titan_2_engine_fire_2" },
+		{
+			duration = 60.400
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Drone_1_engine_fire_1" },
+		{
+			duration = 60.375
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Drone_1_engine_fire_2" },
+		{
+			duration = 60.375
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Drone_1_engine_trail_1" },
+		{
+			duration = 60.375
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Drone_1_engine_trail_2" },
+		{
+			duration = 60.375
+		}
+	},
+
+	{
+		9.625, START_PATH_ANIMATION, { "Ship_Correo_2", "Traffic_Zone_03_Top" },
+		{
+			duration = 15.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 15, 0, 0 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1
+		}
+	},
+
+	{
+		10.000, START_SPATIAL_PROP_ANIM, { "Ship_Black_Dragon_1", "Ship_Park_07" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 61.28657, 0, 1522.148 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_trail_1" },
+		{
+			duration = 60.028
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_trail_2" },
+		{
+			duration = 60.028
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_trail_3" },
+		{
+			duration = 60.028
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_trail_4" },
+		{
+			duration = 60.028
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_trail_5" },
+		{
+			duration = 60.028
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_trail_6" },
+		{
+			duration = 60.028
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_trail_7" },
+		{
+			duration = 60.028
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_trail_8" },
+		{
+			duration = 60.028
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_fire_1" },
+		{
+			duration = 60.028
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_fire_2" },
+		{
+			duration = 60.028
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_fire_3" },
+		{
+			duration = 60.028
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_fire_4" },
+		{
+			duration = 60.028
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_fire_5" },
+		{
+			duration = 60.028
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_fire_6" },
+		{
+			duration = 60.028
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_fire_7" },
+		{
+			duration = 60.028
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Corsair_Train_1_engine_fire_8" },
+		{
+			duration = 60.028
+		}
+	},
+
+	{
+		10.375, START_PATH_ANIMATION, { "Ship_Corsair_Train_1", "Traffic_Zone_04" },
+		{
+			duration = 12.029,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 120, -500 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		11.375, START_SOUND, { "Ship_Black_Dragon_1_engine_nd_small_4" },
+		{
+			duration = 13.937,
+			flags = LOOP
+		}
+	},
+
+	{
+		11.375, START_PATH_ANIMATION, { "Ship_Black_Dragon_1", "Traffic_Zone_02_Bottom" },
+		{
+			duration = 14.000,
+			start_percent = 1,
+			stop_percent = 0,
+			offset = { 0, 15, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.964744,  0.000000, -0.666667 },
+					{  1.000000,  0.000000, -1.214286,  0.000000 },
+				}
+			},
+			pcurve_period = -1000
+		}
+	},
+
+	{
+		12.029, START_SPATIAL_PROP_ANIM, { "Ship_Correo_1", "Ship_Park_08" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 80.73694, 0, 1536.573 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		13.437, START_PATH_ANIMATION, { "Ship_Correo_1", "Traffic_Zone_04" },
+		{
+			duration = 12.029,
+			start_percent = 1,
+			stop_percent = 0,
+			offset = { 0, 40, 0 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "Ship_Correo_2_trail_1" },
+		{
+			duration = 60.437
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Correo_2_trail_2" },
+		{
+			duration = 60.437
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Correo_2_trail_3" },
+		{
+			duration = 60.437
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Correo_2_engine_1" },
+		{
+			duration = 60.437
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Correo_2_engine_2" },
+		{
+			duration = 60.437
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Correo_2_engine_3" },
+		{
+			duration = 60.437
+		}
+	},
+
+	{
+		0.000, START_PSYS, { "Ship_Legionnaire_1_engine_trail_1" },
+		{
+			duration = 60.119
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Legionnaire_1_engine_trail_2" },
+		{
+			duration = 60.119
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Legionnaire_1_engine_fire_1" },
+		{
+			duration = 60.119
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_Legionnaire_1_engine_fire_2" },
+		{
+			duration = 60.119
+		}
+	},
+
+	{
+		14.125, START_PATH_ANIMATION, { "Ship_Co_Gunboat_1", "Traffic_Zone_01" },
+		{
+			duration = 15.000,
+			start_percent = 1,
+			stop_percent = 0,
+			offset = { 0, -15, 0 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		14.312, START_SPATIAL_PROP_ANIM, { "Ship_Legionnaire_2", "Ship_Park_12" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 184.6152, 0, 1548.2 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		14.875, START_PATH_ANIMATION, { "Ship_Legionnaire_2", "Traffic_Zone_03_Top" },
+		{
+			duration = 14.312,
+			start_percent = 1,
+			stop_percent = 0,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		15.155, START_SPATIAL_PROP_ANIM, { "Ship_Titan_1", "Ship_Park_04" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { -6.558228, 0, 1525.105 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		15.156, START_SPATIAL_PROP_ANIM, { "Ship_Titan_2", "Ship_Park_06" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 38.11547, 0, 1536.026 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		15.468, START_SPATIAL_PROP_ANIM, { "Ship_Drone_1", "Ship_Park_13" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 215.5349, 0, 1553.649 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+
+	{
+		16.562, START_PATH_ANIMATION, { "Ship_Titan_1", "Traffic_Zone_01" },
+		{
+			duration = 17.968,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 10, 15, -5 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1
+		}
+	},
+
+	{
+		16.562, START_SPATIAL_PROP_ANIM, { "Ship_Raba_1", "Ship_Park_01" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { -57.31088, 0, 1517.487 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+
+	{
+		18.187, START_SPATIAL_PROP_ANIM, { "Ship_PirateTransport_1", "Ship_Park_02" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { -39.79836, 0, 1517.395 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		18.750, START_PATH_ANIMATION, { "Ship_Gladiator_1", "Traffic_Zone_02_Bottom" },
+		{
+			duration = 13.000,
+			start_percent = 1,
+			stop_percent = 0,
+			offset = { 0, -5, 0 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		21.406, START_SOUND, { "Ship_Drone_1_engine_ku_small_1" },
+		{
+			duration = 13.437,
+			flags = LOOP
+		}
+	},
+
+	{
+		21.406, START_PATH_ANIMATION, { "Ship_Drone_1", "Traffic_Zone_01" },
+		{
+			duration = 13.437,
+			start_percent = 1,
+			stop_percent = 0,
+			offset = { 20, 20, 5 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1000
+		}
+	},
+	{
+		21.406, ATTACH_ENTITY, { "Ship_Drone_1_engine_trail_1", "Ship_Drone_1" },
+		{
+			duration = 13.200,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine01",
+			target_type = HARDPOINT,
+			flags = POSITION
+		}
+	},
+	{
+		21.406, ATTACH_ENTITY, { "Ship_Drone_1_engine_trail_2", "Ship_Drone_1" },
+		{
+			duration = 13.200,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine02",
+			target_type = HARDPOINT,
+			flags = POSITION
+		}
+	},
+
+	{
+		21.489, START_PATH_ANIMATION, { "Ship_PirateTransport_1", "Traffic_Zone_04" },
+		{
+			duration = 12.029,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 50, 0 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1
+		}
+	},
+
+	{
+		22.403, START_SPATIAL_PROP_ANIM, { "Ship_Corsair_Train_1", "Ship_Park_09" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 104.8376, 0, 1537.374 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		22.499, START_SPATIAL_PROP_ANIM, { "Ship_Legionnaire_1", "Ship_Park_11" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 153.8204, 0, 1548.2 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		23.375, START_SOUND, { "Ship_Titan_2_engine_nd_small_6" },
+		{
+			duration = 17.875,
+			flags = LOOP
+		}
+	},
+
+	{
+		23.375, START_PATH_ANIMATION, { "Ship_Titan_2", "Traffic_Zone_02_Bottom" },
+		{
+			duration = 18.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, -5, 0 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1000
+		}
+	},
+
+	{
+		24.625, START_SPATIAL_PROP_ANIM, { "Ship_Correo_2", "Ship_Park_10" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 127.9386, 0, 1524.568 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		25.375, START_SPATIAL_PROP_ANIM, { "Ship_Black_Dragon_1", "Ship_Park_07" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 61.28657, 0, 1522.148 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		25.466, START_SPATIAL_PROP_ANIM, { "Ship_Correo_1", "Ship_Park_08" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 80.73694, 0, 1536.573 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		26.625, START_PATH_ANIMATION, { "Ship_Correo_1", "Traffic_Zone_03_Top" },
+		{
+			duration = 14.468,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 10, 0 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1
+		}
+	},
+
+	{
+		29.125, START_SPATIAL_PROP_ANIM, { "Ship_Co_Gunboat_1", "Ship_Park_03" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { -25.5347, 0, 1532 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		29.187, START_SPATIAL_PROP_ANIM, { "Ship_Legionnaire_2", "Ship_Park_12" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 184.6152, 0, 1548.2 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		30.000, START_PATH_ANIMATION, { "Ship_Co_Gunboat_1", "Traffic_Zone_01" },
+		{
+			duration = 13.625,
+			start_percent = 1,
+			stop_percent = 0,
+			offset = { 0, -15, 0 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		31.500, START_PATH_ANIMATION, { "Ship_Corsair_Train_1", "Traffic_Zone_04" },
+		{
+			duration = 12.029,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 150, -500 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		31.750, START_SPATIAL_PROP_ANIM, { "Ship_Gladiator_1", "Ship_Park_05" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 9.467437, 0, 1525.105 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		33.520, START_SPATIAL_PROP_ANIM, { "Ship_PirateTransport_1", "Ship_Park_02" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { -39.79836, 0, 1517.395 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		34.125, START_SOUND, { "Ship_Black_Dragon_1_engine_nd_small_4" },
+		{
+			duration = 11.000,
+			flags = LOOP
+		}
+	},
+
+	{
+		34.125, START_PATH_ANIMATION, { "Ship_Black_Dragon_1", "Traffic_Zone_02_Bottom" },
+		{
+			duration = 11.000,
+			start_percent = 1,
+			stop_percent = 0,
+			offset = { 0, -10, 0 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.304487,  0.000000,  0.625000 },
+					{  1.000000,  1.000000,  0.642857,  0.000000 },
+				}
+			},
+			pcurve_period = -1000
+		}
+	},
+
+	{
+		34.216, START_SPATIAL_PROP_ANIM, { "Ship_Raba_1", "Ship_Park_01" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { -57.31088, 0, 1517.487 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		34.312, START_PATH_ANIMATION, { "Ship_Correo_2", "Traffic_Zone_04" },
+		{
+			duration = 12.380,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 20, 20, 10 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+
+	{
+		34.528, START_SPATIAL_PROP_ANIM, { "Ship_Titan_1", "Ship_Park_04" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { -6.558228, 0, 1525.105 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		35.145, START_SPATIAL_PROP_ANIM, { "Ship_Drone_1", "Ship_Park_13" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 215.5349, 0, 1553.649 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		35.312, START_PATH_ANIMATION, { "Ship_Gladiator_1", "Traffic_Zone_03_Top" },
+		{
+			duration = 16.562,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 20, 0 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1
+		}
+	},
+
+	{
+		35.625, ATTACH_ENTITY, { "Ship_Drone_1_engine_trail_1", "Ship_Drone_1" },
+		{
+			duration = 11.800,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine01",
+			target_type = HARDPOINT,
+			flags = POSITION
+		}
+	},
+	{
+		35.625, ATTACH_ENTITY, { "Ship_Drone_1_engine_trail_2", "Ship_Drone_1" },
+		{
+			duration = 11.800,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine02",
+			target_type = HARDPOINT,
+			flags = POSITION
+		}
+	},
+	{
+		35.625, START_PATH_ANIMATION, { "Ship_Drone_1", "Traffic_Zone_01" },
+		{
+			duration = 12.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 20, 20, 5 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1000
+		}
+	},
+
+	{
+		35.625, START_PATH_ANIMATION, { "Ship_Titan_1", "Traffic_Zone_01" },
+		{
+			duration = 22.656,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 10, -10, 10 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1000
+		}
+	},
+
+	{
+		35.625, START_SOUND, { "Ship_Drone_1_engine_ku_small_1" },
+		{
+			duration = 12.000,
+			flags = LOOP
+		}
+	},
+
+	{
+		37.937, START_PATH_ANIMATION, { "Ship_Raba_1", "Traffic_Zone_04" },
+		{
+			duration = 11.687,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 100, 70 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1
+		}
+	},
+
+	{
+		40.937, START_PATH_ANIMATION, { "Ship_PirateTransport_1", "Traffic_Zone_04" },
+		{
+			duration = 12.029,
+			start_percent = 1,
+			stop_percent = 0,
+			offset = { 0, 50, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1000
+		}
+	},
+
+	{
+		41.250, START_SPATIAL_PROP_ANIM, { "Ship_Correo_1", "Ship_Park_08" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 80.73694, 0, 1536.573 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		41.375, START_SPATIAL_PROP_ANIM, { "Ship_Titan_2", "Ship_Park_06" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 38.11547, 0, 1536.026 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		42.000, START_SOUND, { "Ship_Titan_2_engine_nd_small_6" },
+		{
+			duration = 15.000,
+			flags = LOOP
+		}
+	},
+
+	{
+		42.000, START_PATH_ANIMATION, { "Ship_Correo_1", "Traffic_Zone_03_Top" },
+		{
+			duration = 14.562,
+			start_percent = 1,
+			stop_percent = 0,
+			offset = { 0, -20, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1000
+		}
+	},
+
+	{
+		42.125, START_PATH_ANIMATION, { "Ship_Titan_2", "Traffic_Zone_02_Bottom" },
+		{
+			duration = 15.000,
+			start_percent = 1,
+			stop_percent = 0,
+			offset = { 0, 5, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1000
+		}
+	},
+
+	{
+		43.187, START_PATH_ANIMATION, { "Ship_Legionnaire_2", "Traffic_Zone_03_Top" },
+		{
+			duration = 15.125,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		43.500, START_SPATIAL_PROP_ANIM, { "Ship_Corsair_Train_1", "Ship_Park_09" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 104.8376, 0, 1537.374 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		43.624, START_SPATIAL_PROP_ANIM, { "Ship_Co_Gunboat_1", "Ship_Park_03" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { -25.5347, 0, 1532 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		43.812, START_PATH_ANIMATION, { "Ship_Legionnaire_1", "Traffic_Zone_04" },
+		{
+			duration = 10.750,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 30, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		45.000, START_PATH_ANIMATION, { "Ship_Co_Gunboat_1", "Traffic_Zone_02_Bottom" },
+		{
+			duration = 14.374,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+
+	{
+		45.125, START_SPATIAL_PROP_ANIM, { "Ship_Black_Dragon_1", "Ship_Park_07" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 61.28657, 0, 1522.148 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		45.500, START_PATH_ANIMATION, { "Ship_Black_Dragon_1", "Traffic_Zone_02_Bottom" },
+		{
+			duration = 14.000,
+			start_percent = 1,
+			stop_percent = 0,
+			offset = { 0, 15, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.964744,  0.000000, -0.666667 },
+					{  1.000000,  0.000000, -1.214286,  0.000000 },
+				}
+			},
+			pcurve_period = -1000
+		}
+	},
+
+	{
+		45.500, START_SOUND, { "Ship_Black_Dragon_1_engine_nd_small_4" },
+		{
+			duration = 13.937,
+			flags = LOOP
+		}
+	},
+
+	{
+		46.692, START_SPATIAL_PROP_ANIM, { "Ship_Correo_2", "Ship_Park_10" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 127.9386, 0, 1524.568 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		47.625, START_SPATIAL_PROP_ANIM, { "Ship_Drone_1", "Ship_Park_13" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 215.5349, 0, 1553.649 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		48.250, START_SOUND, { "Ship_Drone_1_engine_ku_small_1" },
+		{
+			duration = 13.437,
+			flags = LOOP
+		}
+	},
+
+	{
+		48.250, ATTACH_ENTITY, { "Ship_Drone_1_engine_trail_1", "Ship_Drone_1" },
+		{
+			duration = 11.200,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine01",
+			target_type = HARDPOINT,
+			flags = POSITION
+		}
+	},
+	{
+		48.250, ATTACH_ENTITY, { "Ship_Drone_1_engine_trail_2", "Ship_Drone_1" },
+		{
+			duration = 11.200,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine02",
+			target_type = HARDPOINT,
+			flags = POSITION
+		}
+	},
+	{
+		48.250, START_PATH_ANIMATION, { "Ship_Drone_1", "Traffic_Zone_01" },
+		{
+			duration = 11.375,
+			start_percent = 1,
+			stop_percent = 0,
+			offset = { 20, -20, 5 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  1.000000,  0.000000,  0.000000 },
+					{  1.000000,  0.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1000
+		}
+	},
+
+	{
+		49.624, START_SPATIAL_PROP_ANIM, { "Ship_Raba_1", "Ship_Park_01" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { -57.31088, 0, 1517.487 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		51.874, START_SPATIAL_PROP_ANIM, { "Ship_Gladiator_1", "Ship_Park_05" },
+		{
+			duration = 0.008,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 9.467437, 0, 1525.105 }
+			}
+		}
+	},
+
+	{
+		52.966, START_SPATIAL_PROP_ANIM, { "Ship_PirateTransport_1", "Ship_Park_02" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { -39.79836, 0, 1517.395 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		54.844, START_SPATIAL_PROP_ANIM, { "Ship_Legionnaire_1", "Ship_Park_11" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 153.8204, 0, 1548.2 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		56.562, START_SPATIAL_PROP_ANIM, { "Ship_Correo_1", "Ship_Park_08" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 80.73694, 0, 1536.573 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		57.125, START_SPATIAL_PROP_ANIM, { "Ship_Titan_2", "Ship_Park_06" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 38.11547, 0, 1536.026 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		58.278, START_SPATIAL_PROP_ANIM, { "Ship_Titan_1", "Ship_Park_08" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 80.73694, 0, 1536.573 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		58.430, START_SPATIAL_PROP_ANIM, { "Ship_Legionnaire_2", "Ship_Park_12" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 184.6152, 0, 1548.2 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		59.374, START_SPATIAL_PROP_ANIM, { "Ship_Co_Gunboat_1", "Ship_Park_03" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { -25.5347, 0, 1532 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		59.500, START_SPATIAL_PROP_ANIM, { "Ship_Black_Dragon_1", "Ship_Park_07" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 61.28657, 0, 1522.148 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	},
+
+	{
+		59.625, START_SPATIAL_PROP_ANIM, { "Ship_Drone_1", "Ship_Park_13" },
+		{
+			duration = 0.001,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 215.5349, 0, 1553.649 },
+				q_orient = { 1, 0, 0, 0 }
+			}
+		}
+	}
+};

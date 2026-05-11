@@ -1,0 +1,7968 @@
+duration = 60.000;
+entities =
+{
+	{
+		entity_name = "Layer_Scene_li_01_City_Traffic",
+		type = SCENE,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		up = Y_AXIS,
+		front = Z_AXIS,
+		ambient = { 0, 0, 0 }
+	},
+	{
+		entity_name = "Mrk_Parking",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 1.59536, 0, 327.6943 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		}
+	},
+	{
+		entity_name = "Ship_l_freighter_1",
+		type = COMPOUND,
+		template_name = "rtcprop_l_freighter",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1.59536, 0, 327.6943 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+
+    {
+		entity_name = "Ship_l_freighter_1_engine_sound",
+		type = SOUND,
+		template_name = "engine_li_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_l_freighter_1_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_l_freighter_1_trail_1",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_l_freighter_1_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_l_freighter_1_trail_2",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},	{
+		entity_name = "Ship_l_freighter_2",
+		type = COMPOUND,
+		template_name = "rtcprop_l_freighter",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1.59536, 0, 327.6943 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+
+    {
+		entity_name = "Ship_l_freighter_2_engine_sound",
+		type = SOUND,
+		template_name = "engine_li_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_l_freighter_2_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_l_freighter_2_trail_1",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_l_freighter_2_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_l_freighter_2_trail_2",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},	{
+		entity_name = "Ship_r_fighter_1",
+		type = COMPOUND,
+		template_name = "rtcprop_r_fighter",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1.59536, 0, 327.6943 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+
+    {
+		entity_name = "Ship_r_fighter_1_engine_sound",
+		type = SOUND,
+		template_name = "engine_rh_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_r_fighter_1_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_rh_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_r_fighter_1_trail_1",
+		type = PSYS,
+		template_name = "gf_rh_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},	{
+		entity_name = "Ship_civ_fighter_1",
+		type = COMPOUND,
+		template_name = "rtcprop_civ_fighter",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 253.3982, -109.1219, -247.0701 },
+			orient = { {  0.663755,  0.000000,  0.747950 },
+					   {  0.000000,  1.000000,  0.000000 },
+					   { -0.747950,  0.000000,  0.663755 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+
+    {
+		entity_name = "Ship_civ_fighter_1_engine_sound",
+		type = SOUND,
+		template_name = "engine_li_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_civ_fighter_1_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_civ_fighter_1_trail_1",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},	{
+		entity_name = "Ship_civ_freighter_1",
+		type = COMPOUND,
+		template_name = "rtcprop_civ_freighter",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1.59536, 0, 327.6943 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+
+    {
+		entity_name = "Ship_civ_freighter_1_engine_sound",
+		type = SOUND,
+		template_name = "engine_li_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_civ_freighter_1_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_civ_freighter_1_trail_1",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},	{
+		entity_name = "Ship_b_freighter_1",
+		type = COMPOUND,
+		template_name = "rtcprop_b_freighter",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1.59536, 0, 327.6943 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+
+    {
+		entity_name = "Ship_b_freighter_1_engine_sound",
+		type = SOUND,
+		template_name = "engine_br_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_b_freighter_1_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_br_smallengine03_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_b_freighter_1_trail_1",
+		type = PSYS,
+		template_name = "gf_br_smallengine03_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_b_freighter_1_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_br_smallengine03_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_b_freighter_1_trail_2",
+		type = PSYS,
+		template_name = "gf_br_smallengine03_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},	{
+		entity_name = "Ship_r_freighter_1",
+		type = COMPOUND,
+		template_name = "rtcprop_r_freighter",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1.59536, 0, 327.6943 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+
+    {
+		entity_name = "Ship_r_freighter_1_engine_sound",
+		type = SOUND,
+		template_name = "engine_rh_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_r_freighter_1_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_rh_smallengine03_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_r_freighter_1_trail_1",
+		type = PSYS,
+		template_name = "gf_rh_smallengine03_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_r_freighter_1_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_rh_smallengine03_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_r_freighter_1_trail_2",
+		type = PSYS,
+		template_name = "gf_rh_smallengine03_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},	{
+		entity_name = "Ship_k_freighter_1",
+		type = COMPOUND,
+		template_name = "rtcprop_k_freighter",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1.59536, 0, 327.6943 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+
+    {
+		entity_name = "Ship_k_freighter_1_engine_sound",
+		type = SOUND,
+		template_name = "engine_br_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_k_freighter_1_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_ku_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_k_freighter_1_trail_1",
+		type = PSYS,
+		template_name = "gf_ku_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_k_freighter_1_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_ku_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_k_freighter_1_trail_2",
+		type = PSYS,
+		template_name = "gf_ku_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},	{
+		entity_name = "Ship_armored_transport_1",
+		type = COMPOUND,
+		template_name = "rtcprop_armored_transport",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1.59536, 0, 327.6943 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+
+    {
+		entity_name = "Ship_armored_transport_1_engine_sound",
+		type = SOUND,
+		template_name = "engine_li_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_armored_transport_1_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_br_atransport_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_armored_transport_1_trail_1",
+		type = PSYS,
+		template_name = "gf_br_atransport_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_armored_transport_1_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_br_atransport_engine01_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_armored_transport_1_trail_2",
+		type = PSYS,
+		template_name = "gf_br_atransport_engine01_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},	{
+		entity_name = "Ship_r_elite_2",
+		type = COMPOUND,
+		template_name = "rtcprop_r_elite",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1.59536, 0, 327.6943 },
+			orient = { { -0.870021,  0.000000, -0.493014 },
+					   {  0.000000,  1.000000,  0.000000 },
+					   {  0.493014,  0.000000, -0.870021 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+
+    {
+		entity_name = "Ship_r_elite_2_engine_sound",
+		type = SOUND,
+		template_name = "engine_rh_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_r_elite_2_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_rh_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_r_elite_2_trail_1",
+		type = PSYS,
+		template_name = "gf_rh_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_r_elite_2_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_rh_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_r_elite_2_trail_2",
+		type = PSYS,
+		template_name = "gf_rh_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},	{
+		entity_name = "Ship_r_fighter_2",
+		type = COMPOUND,
+		template_name = "rtcprop_r_fighter",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1.59536, 0, 327.6943 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+
+    {
+		entity_name = "Ship_r_fighter_2_engine_sound",
+		type = SOUND,
+		template_name = "engine_rh_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_r_fighter_2_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_rh_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_r_fighter_2_trail_1",
+		type = PSYS,
+		template_name = "gf_rh_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},	{
+		entity_name = "Ship_r_fighter_3",
+		type = COMPOUND,
+		template_name = "rtcprop_r_fighter",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1.59536, 0, 327.6943 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+
+    {
+		entity_name = "Ship_r_fighter_3_engine_sound",
+		type = SOUND,
+		template_name = "engine_rh_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_r_fighter_3_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_rh_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_r_fighter_3_trail_1",
+		type = PSYS,
+		template_name = "gf_rh_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},	{
+		entity_name = "Ship_civ_elite_1",
+		type = COMPOUND,
+		template_name = "rtcprop_civ_elite",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1.59536, 0, 327.6943 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+
+    {
+		entity_name = "Ship_civ_elite_1_engine_sound",
+		type = SOUND,
+		template_name = "engine_li_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_civ_elite_1_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_civ_elite_1_trail_1",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},	{
+		entity_name = "Path_1_a",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, -0.26085, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN,{129.581848,196.205078,220.177078}, {0.277143,0.041729,0.959846,-0.012049}, {-235.315048,216.242310,-136.887543}, {0.277143,0.041729,0.959846,-0.012049}, "
+		}
+	},
+	{
+		entity_name = "Path_2_a",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, -0.334992, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN,{18.292633,176.775604,277.693970}, {0.934533,0.000000,0.355876,0.000000}, {266.211578,176.775604,-47.955254}, {0.934533,0.000000,0.355876,0.000000}, "
+		}
+	},
+	{
+		entity_name = "Path_3_a",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 58.64032, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN,{231.050247,63.285290,39.785946}, {0.218949,-0.004668,0.975642,-0.012730}, {-210.868149,56.416622,-170.509689}, {0.218949,-0.004668,0.975642,-0.012730}, "
+		}
+	},
+	{
+		entity_name = "Path_4_a",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 26.97733, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN,{-205.124283,145.912979,134.317780}, {0.934310,0.000000,0.356462,0.000000}, {108.609085,145.912979,-154.644684}, {0.934310,0.000000,0.356462,0.000000}, {384.621124,145.912979,-262.916992}, {0.934310,0.000000,0.356462,0.000000}, "
+		}
+	},
+	{
+		entity_name = "Path_5",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 70.90423, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN,{584.339294,180.363892,-655.048889}, {-0.074190,-0.008168,0.997152,-0.010823}, {-437.986053,169.878967,-577.988281}, {-0.074190,-0.008168,0.997152,-0.010823}, "
+		}
+	},
+	{
+		entity_name = "Path_1_b",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, -30.81638, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN,{-215.477219,171.007416,-101.415710}, {0.277143,0.041729,0.959846,-0.012049}, {139.523285,152.698395,239.477554}, {0.277143,0.041729,0.959846,-0.012049}, "
+		}
+	},
+	{
+		entity_name = "Path_2_b",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, -60.91693, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN,{266.211456,209.457626,-47.955147}, {0.934533,0.000000,0.355876,0.000000}, {18.292662,209.457626,277.693878}, {0.934533,0.000000,0.355876,0.000000}, "
+		}
+	},
+	{
+		entity_name = "Path_3_b",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, -29.98894, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN,{-210.868500,217.030365,-170.509674}, {0.218949,-0.004668,0.975642,-0.012730}, {231.050385,223.898880,39.785938}, {0.218949,-0.004668,0.975642,-0.012730}, "
+		}
+	},
+	{
+		entity_name = "Path_4_b",
+		type = MOTION_PATH,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, -50.57123, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		pathprops =
+		{
+			path_type = "CV_CROrientationSplinePath",
+			path_data = "OPEN,{384.620850,179.731247,-262.916840}, {0.934310,0.000000,0.356462,0.000000}, {108.609085,179.731247,-154.644684}, {0.934310,0.000000,0.356462,0.000000}, {-205.008224,179.731247,131.325546}, {0.934310,0.000000,0.356462,0.000000}, "
+		}
+	},
+	{
+		entity_name = "Ship_r_elite_1",
+		type = COMPOUND,
+		template_name = "rtcprop_r_elite",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 1.59536, 0, 327.6943 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+
+    {
+		entity_name = "Ship_r_elite_1_engine_sound",
+		type = SOUND,
+		template_name = "engine_rh_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_r_elite_1_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_rh_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_r_elite_1_trail_1",
+		type = PSYS,
+		template_name = "gf_rh_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_r_elite_1_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_rh_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_r_elite_1_trail_2",
+		type = PSYS,
+		template_name = "gf_rh_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},	{
+		entity_name = "Ship_l_freighter_3",
+		type = COMPOUND,
+		template_name = "rtcprop_l_freighter",
+		lt_grp = 3, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 253.3982, -109.1219, -247.0701 },
+			orient = { {  0.663755,  0.000000,  0.747950 },
+					   {  0.000000,  1.000000,  0.000000 },
+					   { -0.747950,  0.000000,  0.663755 } }
+		},
+		userprops =
+		{
+			category = "Spaceship",
+		}
+	},
+
+    {
+		entity_name = "Ship_l_freighter_3_engine_sound",
+		type = SOUND,
+		template_name = "engine_li_small",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = SPATIAL,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		audioprops =
+		{
+			attenuation = 0,
+			pan = 0,
+			dmin = 50,
+			dmax = 1000,
+			ain = 360,
+			aout = 360,
+			atout = 0,
+			rmix = 0,
+		},
+		userprops =
+		{
+			category = "Audio",
+		}
+	},
+	{
+		entity_name = "Ship_l_freighter_3_engine_fire_1",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_l_freighter_3_trail_1",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_l_freighter_3_engine_fire_2",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_fire",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "Ship_l_freighter_3_trail_2",
+		type = PSYS,
+		template_name = "gf_li_smallengine02_trail",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } }
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},	{
+		entity_name = "Mrk_dynamic_1",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 253.3982, -109.1219, -247.0701 },
+			orient = { {  0.663755,  0.000000,  0.747950 },
+					   {  0.000000,  1.000000,  0.000000 },
+					   { -0.747950,  0.000000,  0.663755 } }
+		}
+	},
+	{
+		entity_name = "Mrk_dynamic_2",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 228.0295, -20.39323, -224.2386 },
+			orient = { {  0.591617,  0.000000, -0.806219 },
+					   {  0.000000,  1.000000,  0.000000 },
+					   {  0.806219,  0.000000,  0.591617 } }
+		}
+	},
+	{
+		entity_name = "Mrk_dynamic_3",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 163.8994, 17.99361, -322.1304 },
+			orient = { {  0.591617,  0.000000, -0.806219 },
+					   {  0.000000,  1.000000,  0.000000 },
+					   {  0.806219,  0.000000,  0.591617 } }
+		}
+	},
+	{
+		entity_name = "Mrk_dynamic_4",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 138.7285, 45.82621, -366.7213 },
+			orient = { {  0.591617,  0.000000, -0.806219 },
+					   {  0.000000,  1.000000,  0.000000 },
+					   {  0.806219,  0.000000,  0.591617 } }
+		}
+	},
+	{
+		entity_name = "Mrk_dynamic_5",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { -561.8544, 45.82621, -889.8069 },
+			orient = { {  0.591617,  0.000000, -0.806219 },
+					   {  0.000000,  1.000000,  0.000000 },
+					   {  0.806219,  0.000000,  0.591617 } }
+		}
+	},
+	{
+		entity_name = "Mrk_dynamic_ship",
+		type = MARKER,
+		template_name = "",
+		lt_grp = 0, srt_grp = 0, usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 253.3982, -109.1219, -247.0701 },
+			orient = { {  0.663755,  0.000000,  0.747950 },
+					   {  0.000000,  1.000000,  0.000000 },
+					   { -0.747950,  0.000000,  0.663755 } }
+		}
+	},
+};
+events =
+{
+
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "Ship_l_freighter_3", "Mrk_dynamic_ship" },
+		{
+			duration = 10.000,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 253.3982, -109.1219, -247.0701 },
+				q_orient = { 0.663755, 0, 0.74795, 0 }
+			}
+		}
+	},
+
+
+	{
+		0.000, START_SPATIAL_PROP_ANIM, { "Mrk_dynamic_ship", "Mrk_dynamic_2" },
+		{
+			duration = 2.000,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 228.0295, -20.39323, -224.2386 },
+				q_orient = { 0.591617, 0, -0.806219, 0 }
+			}
+		}
+	},
+
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_l_freighter_1_engine_fire_1", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_l_freighter_1_engine_fire_1" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		0.000, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_engine_fire_1"}, {
+            duration = 9.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0.000, ATTACH_ENTITY, { "Ship_l_freighter_1_engine_fire_2", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_l_freighter_1_engine_fire_2" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		0.000, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_engine_fire_2"}, {
+            duration = 9.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0.000, ATTACH_ENTITY, { "Ship_l_freighter_1_trail_1", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_l_freighter_1_trail_1" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		0.000, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_trail_1"}, {
+            duration = 9.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0.000, ATTACH_ENTITY, { "Ship_l_freighter_1_trail_2", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_l_freighter_1_trail_2" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		0.000, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_trail_2"}, {
+            duration = 9.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		0.000, START_SOUND, { "Ship_l_freighter_1_engine_sound" },
+		{
+			duration = 9.8,
+			flags = LOOP
+		}
+	},
+	{
+		0.000, START_PATH_ANIMATION, { "Ship_l_freighter_1", "Path_3_a" },
+		{
+			duration = 10.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_r_fighter_1_engine_fire_1", "Ship_r_fighter_1" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_r_fighter_1_engine_fire_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		0.000, START_PSYS_PROP_ANIM, {"Ship_r_fighter_1_engine_fire_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0.000, ATTACH_ENTITY, { "Ship_r_fighter_1_trail_1", "Ship_r_fighter_1" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_r_fighter_1_trail_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		0.000, START_PSYS_PROP_ANIM, {"Ship_r_fighter_1_trail_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		0.000, START_SOUND, { "Ship_r_fighter_1_engine_sound" },
+		{
+			duration = 7.8,
+			flags = LOOP
+		}
+	},
+	{
+		0.000, START_PATH_ANIMATION, { "Ship_r_fighter_1", "Path_2_a" },
+		{
+			duration = 8.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { -10, -10, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		0.000, ATTACH_ENTITY, { "Ship_civ_freighter_1_engine_fire_1", "Ship_civ_freighter_1" },
+		{
+			duration = 3.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_civ_freighter_1_engine_fire_1" },
+		{
+			duration = 3.8
+		}
+	},
+	{
+		0.000, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_engine_fire_1"}, {
+            duration = 3.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		0.000, ATTACH_ENTITY, { "Ship_civ_freighter_1_trail_1", "Ship_civ_freighter_1" },
+		{
+			duration = 3.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0.000, START_PSYS, { "Ship_civ_freighter_1_trail_1" },
+		{
+			duration = 3.8
+		}
+	},
+	{
+		0.000, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_trail_1"}, {
+            duration = 3.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		0.000, START_SOUND, { "Ship_civ_freighter_1_engine_sound" },
+		{
+			duration = 3.8,
+			flags = LOOP
+		}
+	},
+	{
+		0.000, START_PATH_ANIMATION, { "Ship_civ_freighter_1", "Path_1_a" },
+		{
+			duration = 4.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		1.500, ATTACH_ENTITY, { "Ship_k_freighter_1_engine_fire_1", "Ship_k_freighter_1" },
+		{
+			duration = 11.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		1.500, START_PSYS, { "Ship_k_freighter_1_engine_fire_1" },
+		{
+			duration = 11.8
+		}
+	},
+	{
+		1.500, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_engine_fire_1"}, {
+            duration = 11.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		1.500, ATTACH_ENTITY, { "Ship_k_freighter_1_engine_fire_2", "Ship_k_freighter_1" },
+		{
+			duration = 11.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		1.500, START_PSYS, { "Ship_k_freighter_1_engine_fire_2" },
+		{
+			duration = 11.8
+		}
+	},
+	{
+		1.500, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_engine_fire_2"}, {
+            duration = 11.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		1.500, ATTACH_ENTITY, { "Ship_k_freighter_1_trail_1", "Ship_k_freighter_1" },
+		{
+			duration = 11.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		1.500, START_PSYS, { "Ship_k_freighter_1_trail_1" },
+		{
+			duration = 11.8
+		}
+	},
+	{
+		1.500, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_trail_1"}, {
+            duration = 11.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		1.500, ATTACH_ENTITY, { "Ship_k_freighter_1_trail_2", "Ship_k_freighter_1" },
+		{
+			duration = 11.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		1.500, START_PSYS, { "Ship_k_freighter_1_trail_2" },
+		{
+			duration = 11.8
+		}
+	},
+	{
+		1.500, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_trail_2"}, {
+            duration = 11.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		1.500, START_SOUND, { "Ship_k_freighter_1_engine_sound" },
+		{
+			duration = 11.8,
+			flags = LOOP
+		}
+	},
+	{
+		1.500, START_PATH_ANIMATION, { "Ship_k_freighter_1", "Path_4_b" },
+		{
+			duration = 12.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, -15, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		1.952, ATTACH_ENTITY, { "Ship_l_freighter_2_engine_fire_1", "Ship_l_freighter_2" },
+		{
+			duration = 4.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		1.952, START_PSYS, { "Ship_l_freighter_2_engine_fire_1" },
+		{
+			duration = 4.8
+		}
+	},
+	{
+		1.952, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_engine_fire_1"}, {
+            duration = 4.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		1.952, ATTACH_ENTITY, { "Ship_l_freighter_2_engine_fire_2", "Ship_l_freighter_2" },
+		{
+			duration = 4.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		1.952, START_PSYS, { "Ship_l_freighter_2_engine_fire_2" },
+		{
+			duration = 4.8
+		}
+	},
+	{
+		1.952, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_engine_fire_2"}, {
+            duration = 4.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		1.952, ATTACH_ENTITY, { "Ship_l_freighter_2_trail_1", "Ship_l_freighter_2" },
+		{
+			duration = 4.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		1.952, START_PSYS, { "Ship_l_freighter_2_trail_1" },
+		{
+			duration = 4.8
+		}
+	},
+	{
+		1.952, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_trail_1"}, {
+            duration = 4.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		1.952, ATTACH_ENTITY, { "Ship_l_freighter_2_trail_2", "Ship_l_freighter_2" },
+		{
+			duration = 4.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		1.952, START_PSYS, { "Ship_l_freighter_2_trail_2" },
+		{
+			duration = 4.8
+		}
+	},
+	{
+		1.952, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_trail_2"}, {
+            duration = 4.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		1.952, START_SOUND, { "Ship_l_freighter_2_engine_sound" },
+		{
+			duration = 4.8,
+			flags = LOOP
+		}
+	},
+	{
+		1.952, START_PATH_ANIMATION, { "Ship_l_freighter_2", "Path_1_b" },
+		{
+			duration = 5.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		2.000, START_SPATIAL_PROP_ANIM, { "Mrk_dynamic_ship", "Mrk_dynamic_3" },
+		{
+			duration = 2.000,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 163.8994, 17.99361, -322.1304 },
+				q_orient = { 0.591617, 0, -0.806219, 0 }
+			}
+		}
+	},
+
+
+	{
+		3.062, ATTACH_ENTITY, { "Ship_civ_fighter_1_engine_fire_1", "Ship_civ_fighter_1" },
+		{
+			duration = 10.3,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		3.062, START_PSYS, { "Ship_civ_fighter_1_engine_fire_1" },
+		{
+			duration = 10.3
+		}
+	},
+	{
+		3.062, START_PSYS_PROP_ANIM, {"Ship_civ_fighter_1_engine_fire_1"}, {
+            duration = 10.3,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		3.062, ATTACH_ENTITY, { "Ship_civ_fighter_1_trail_1", "Ship_civ_fighter_1" },
+		{
+			duration = 10.3,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		3.062, START_PSYS, { "Ship_civ_fighter_1_trail_1" },
+		{
+			duration = 10.3
+		}
+	},
+	{
+		3.062, START_PSYS_PROP_ANIM, {"Ship_civ_fighter_1_trail_1"}, {
+            duration = 10.3,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		3.062, START_SOUND, { "Ship_civ_fighter_1_engine_sound" },
+		{
+			duration = 10.3,
+			flags = LOOP
+		}
+	},
+	{
+		3.062, START_PATH_ANIMATION, { "Ship_civ_fighter_1", "Path_3_b" },
+		{
+			duration = 10.500,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		4.000, START_SPATIAL_PROP_ANIM, { "Mrk_dynamic_ship", "Mrk_dynamic_4" },
+		{
+			duration = 2.000,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { 138.7285, 45.82621, -366.7213 },
+				q_orient = { 0.591617, 0, -0.806219, 0 }
+			}
+		}
+	},
+
+	
+
+	{
+		6.000, START_SPATIAL_PROP_ANIM, { "Mrk_dynamic_ship", "Mrk_dynamic_5" },
+		{
+			duration = 2.000,
+			target_part = "",
+			target_type = ROOT,
+			spatialprops =
+			{
+				pos = { -561.8544, 45.82621, -889.8069 },
+				q_orient = { 0.591617, 0, -0.806219, 0 }
+			}
+		}
+	},
+
+
+	{
+		7.375, ATTACH_ENTITY, { "Ship_civ_freighter_1_engine_fire_1", "Ship_civ_freighter_1" },
+		{
+			duration = 3.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		7.375, START_PSYS, { "Ship_civ_freighter_1_engine_fire_1" },
+		{
+			duration = 3.8
+		}
+	},
+	{
+		7.375, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_engine_fire_1"}, {
+            duration = 3.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		7.375, ATTACH_ENTITY, { "Ship_civ_freighter_1_trail_1", "Ship_civ_freighter_1" },
+		{
+			duration = 3.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		7.375, START_PSYS, { "Ship_civ_freighter_1_trail_1" },
+		{
+			duration = 3.8
+		}
+	},
+	{
+		7.375, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_trail_1"}, {
+            duration = 3.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		7.375, START_SOUND, { "Ship_civ_freighter_1_engine_sound" },
+		{
+			duration = 3.8,
+			flags = LOOP
+		}
+	},
+	{
+		7.375, START_PATH_ANIMATION, { "Ship_civ_freighter_1", "Path_1_b" },
+		{
+			duration = 4.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+	
+
+	{
+		8.003, ATTACH_ENTITY, { "Ship_r_fighter_3_engine_fire_1", "Ship_r_fighter_3" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		8.003, START_PSYS, { "Ship_r_fighter_3_engine_fire_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		8.003, START_PSYS_PROP_ANIM, {"Ship_r_fighter_3_engine_fire_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		8.003, ATTACH_ENTITY, { "Ship_r_fighter_3_trail_1", "Ship_r_fighter_3" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		8.003, START_PSYS, { "Ship_r_fighter_3_trail_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		8.003, START_PSYS_PROP_ANIM, {"Ship_r_fighter_3_trail_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		8.003, START_SOUND, { "Ship_r_fighter_3_engine_sound" },
+		{
+			duration = 6.8,
+			flags = LOOP
+		}
+	},
+	{
+		8.003, START_PATH_ANIMATION, { "Ship_r_fighter_3", "Path_3_b" },
+		{
+			duration = 7.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		8.003, ATTACH_ENTITY, { "Ship_civ_elite_1_engine_fire_1", "Ship_civ_elite_1" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		8.003, START_PSYS, { "Ship_civ_elite_1_engine_fire_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		8.003, START_PSYS_PROP_ANIM, {"Ship_civ_elite_1_engine_fire_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		8.003, ATTACH_ENTITY, { "Ship_civ_elite_1_trail_1", "Ship_civ_elite_1" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		8.003, START_PSYS, { "Ship_civ_elite_1_trail_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		8.003, START_PSYS_PROP_ANIM, {"Ship_civ_elite_1_trail_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		8.003, START_SOUND, { "Ship_civ_elite_1_engine_sound" },
+		{
+			duration = 7.8,
+			flags = LOOP
+		}
+	},
+	{
+		8.003, START_PATH_ANIMATION, { "Ship_civ_elite_1", "Path_4_b" },
+		{
+			duration = 8.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		8.003, ATTACH_ENTITY, { "Ship_r_elite_1_engine_fire_1", "Ship_r_elite_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		8.003, START_PSYS, { "Ship_r_elite_1_engine_fire_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		8.003, START_PSYS_PROP_ANIM, {"Ship_r_elite_1_engine_fire_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		8.003, ATTACH_ENTITY, { "Ship_r_elite_1_engine_fire_2", "Ship_r_elite_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		8.003, START_PSYS, { "Ship_r_elite_1_engine_fire_2" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		8.003, START_PSYS_PROP_ANIM, {"Ship_r_elite_1_engine_fire_2"}, {
+            duration = 5.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		8.003, ATTACH_ENTITY, { "Ship_r_elite_1_trail_1", "Ship_r_elite_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		8.003, START_PSYS, { "Ship_r_elite_1_trail_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		8.003, START_PSYS_PROP_ANIM, {"Ship_r_elite_1_trail_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		8.003, ATTACH_ENTITY, { "Ship_r_elite_1_trail_2", "Ship_r_elite_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		8.003, START_PSYS, { "Ship_r_elite_1_trail_2" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		8.003, START_PSYS_PROP_ANIM, {"Ship_r_elite_1_trail_2"}, {
+            duration = 5.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		8.003, START_SOUND, { "Ship_r_elite_1_engine_sound" },
+		{
+			duration = 5.8,
+			flags = LOOP
+		}
+	},
+	{
+		8.003, START_PATH_ANIMATION, { "Ship_r_elite_1", "Path_2_a" },
+		{
+			duration = 6.000,
+			start_percent = 1,
+			stop_percent = 0,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		8.061, ATTACH_ENTITY, { "Ship_r_elite_2_engine_fire_1", "Ship_r_elite_2" },
+		{
+			duration = 5.612,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		8.061, START_PSYS, { "Ship_r_elite_2_engine_fire_1" },
+		{
+			duration = 5.612
+		}
+	},
+	{
+		8.061, START_PSYS_PROP_ANIM, {"Ship_r_elite_2_engine_fire_1"}, {
+            duration = 5.612,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		8.061, ATTACH_ENTITY, { "Ship_r_elite_2_engine_fire_2", "Ship_r_elite_2" },
+		{
+			duration = 5.612,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		8.061, START_PSYS, { "Ship_r_elite_2_engine_fire_2" },
+		{
+			duration = 5.612
+		}
+	},
+	{
+		8.061, START_PSYS_PROP_ANIM, {"Ship_r_elite_2_engine_fire_2"}, {
+            duration = 5.612,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		8.061, ATTACH_ENTITY, { "Ship_r_elite_2_trail_1", "Ship_r_elite_2" },
+		{
+			duration = 5.612,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		8.061, START_PSYS, { "Ship_r_elite_2_trail_1" },
+		{
+			duration = 5.612
+		}
+	},
+	{
+		8.061, START_PSYS_PROP_ANIM, {"Ship_r_elite_2_trail_1"}, {
+            duration = 5.612,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		8.061, ATTACH_ENTITY, { "Ship_r_elite_2_trail_2", "Ship_r_elite_2" },
+		{
+			duration = 5.612,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		8.061, START_PSYS, { "Ship_r_elite_2_trail_2" },
+		{
+			duration = 5.612
+		}
+	},
+	{
+		8.061, START_PSYS_PROP_ANIM, {"Ship_r_elite_2_trail_2"}, {
+            duration = 5.612,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		8.061, START_SOUND, { "Ship_r_elite_2_engine_sound" },
+		{
+			duration = 5.612,
+			flags = LOOP
+		}
+	},
+	{
+		8.061, START_PATH_ANIMATION, { "Ship_r_elite_2", "Path_2_a" },
+		{
+			duration = 5.812,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 20, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		9.093, ATTACH_ENTITY, { "Ship_r_fighter_2_engine_fire_1", "Ship_r_fighter_2" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		9.093, START_PSYS, { "Ship_r_fighter_2_engine_fire_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		9.093, START_PSYS_PROP_ANIM, {"Ship_r_fighter_2_engine_fire_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		9.093, ATTACH_ENTITY, { "Ship_r_fighter_2_trail_1", "Ship_r_fighter_2" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		9.093, START_PSYS, { "Ship_r_fighter_2_trail_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		9.093, START_PSYS_PROP_ANIM, {"Ship_r_fighter_2_trail_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		9.093, START_SOUND, { "Ship_r_fighter_2_engine_sound" },
+		{
+			duration = 5.8,
+			flags = LOOP
+		}
+	},
+	{
+		9.093, START_PATH_ANIMATION, { "Ship_r_fighter_2", "Path_2_b" },
+		{
+			duration = 6.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		10.000, ATTACH_ENTITY, { "Ship_r_freighter_1_engine_fire_1", "Ship_r_freighter_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		10.000, START_PSYS, { "Ship_r_freighter_1_engine_fire_1" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		10.000, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_engine_fire_1"}, {
+            duration = 8.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		10.000, ATTACH_ENTITY, { "Ship_r_freighter_1_engine_fire_2", "Ship_r_freighter_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		10.000, START_PSYS, { "Ship_r_freighter_1_engine_fire_2" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		10.000, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_engine_fire_2"}, {
+            duration = 8.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		10.000, ATTACH_ENTITY, { "Ship_r_freighter_1_trail_1", "Ship_r_freighter_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		10.000, START_PSYS, { "Ship_r_freighter_1_trail_1" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		10.000, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_trail_1"}, {
+            duration = 8.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		10.000, ATTACH_ENTITY, { "Ship_r_freighter_1_trail_2", "Ship_r_freighter_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		10.000, START_PSYS, { "Ship_r_freighter_1_trail_2" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		10.000, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_trail_2"}, {
+            duration = 8.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		10.000, START_SOUND, { "Ship_r_freighter_1_engine_sound" },
+		{
+			duration = 8.8,
+			flags = LOOP
+		}
+	},
+	{
+		10.000, START_PATH_ANIMATION, { "Ship_r_freighter_1", "Path_5" },
+		{
+			duration = 9.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		11.096, ATTACH_ENTITY, { "Ship_civ_freighter_1_engine_fire_1", "Ship_civ_freighter_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		11.096, START_PSYS, { "Ship_civ_freighter_1_engine_fire_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		11.096, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_engine_fire_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		11.096, ATTACH_ENTITY, { "Ship_civ_freighter_1_trail_1", "Ship_civ_freighter_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		11.096, START_PSYS, { "Ship_civ_freighter_1_trail_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		11.096, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_trail_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		11.096, START_SOUND, { "Ship_civ_freighter_1_engine_sound" },
+		{
+			duration = 5.8,
+			flags = LOOP
+		}
+	},
+	{
+		11.096, START_PATH_ANIMATION, { "Ship_civ_freighter_1", "Path_2_b" },
+		{
+			duration = 6.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		13.062, ATTACH_ENTITY, { "Ship_r_fighter_1_engine_fire_1", "Ship_r_fighter_1" },
+		{
+			duration = 1.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		13.062, START_PSYS, { "Ship_r_fighter_1_engine_fire_1" },
+		{
+			duration = 1.8
+		}
+	},
+	{
+		13.062, START_PSYS_PROP_ANIM, {"Ship_r_fighter_1_engine_fire_1"}, {
+            duration = 1.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		13.062, ATTACH_ENTITY, { "Ship_r_fighter_1_trail_1", "Ship_r_fighter_1" },
+		{
+			duration = 1.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		13.062, START_PSYS, { "Ship_r_fighter_1_trail_1" },
+		{
+			duration = 1.8
+		}
+	},
+	{
+		13.062, START_PSYS_PROP_ANIM, {"Ship_r_fighter_1_trail_1"}, {
+            duration = 1.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		13.062, START_SOUND, { "Ship_r_fighter_1_engine_sound" },
+		{
+			duration = 1.8,
+			flags = LOOP
+		}
+	},
+	{
+		13.062, START_PATH_ANIMATION, { "Ship_r_fighter_1", "Path_1_a" },
+		{
+			duration = 2.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		14.378, ATTACH_ENTITY, { "Ship_civ_fighter_1_engine_fire_1", "Ship_civ_fighter_1" },
+		{
+			duration = 1.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		14.378, START_PSYS, { "Ship_civ_fighter_1_engine_fire_1" },
+		{
+			duration = 1.8
+		}
+	},
+	{
+		14.378, START_PSYS_PROP_ANIM, {"Ship_civ_fighter_1_engine_fire_1"}, {
+            duration = 1.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		14.378, ATTACH_ENTITY, { "Ship_civ_fighter_1_trail_1", "Ship_civ_fighter_1" },
+		{
+			duration = 1.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		14.378, START_PSYS, { "Ship_civ_fighter_1_trail_1" },
+		{
+			duration = 1.8
+		}
+	},
+	{
+		14.378, START_PSYS_PROP_ANIM, {"Ship_civ_fighter_1_trail_1"}, {
+            duration = 1.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		14.378, START_SOUND, { "Ship_civ_fighter_1_engine_sound" },
+		{
+			duration = 1.8,
+			flags = LOOP
+		}
+	},
+	{
+		14.378, START_PATH_ANIMATION, { "Ship_civ_fighter_1", "Path_1_a" },
+		{
+			duration = 2.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		15.750, ATTACH_ENTITY, { "Ship_l_freighter_3_engine_fire_1", "Ship_l_freighter_3" },
+		{
+			duration = 8.3,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		15.750, START_PSYS, { "Ship_l_freighter_3_engine_fire_1" },
+		{
+			duration = 8.3
+		}
+	},
+	{
+		15.750, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_engine_fire_1"}, {
+            duration = 8.3,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		15.750, ATTACH_ENTITY, { "Ship_l_freighter_3_engine_fire_2", "Ship_l_freighter_3" },
+		{
+			duration = 8.3,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		15.750, START_PSYS, { "Ship_l_freighter_3_engine_fire_2" },
+		{
+			duration = 8.3
+		}
+	},
+	{
+		15.750, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_engine_fire_2"}, {
+            duration = 8.3,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		15.750, ATTACH_ENTITY, { "Ship_l_freighter_3_trail_1", "Ship_l_freighter_3" },
+		{
+			duration = 8.3,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		15.750, START_PSYS, { "Ship_l_freighter_3_trail_1" },
+		{
+			duration = 8.3
+		}
+	},
+	{
+		15.750, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_trail_1"}, {
+            duration = 8.3,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		15.750, ATTACH_ENTITY, { "Ship_l_freighter_3_trail_2", "Ship_l_freighter_3" },
+		{
+			duration = 8.3,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		15.750, START_PSYS, { "Ship_l_freighter_3_trail_2" },
+		{
+			duration = 8.3
+		}
+	},
+	{
+		15.750, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_trail_2"}, {
+            duration = 8.3,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		15.750, START_SOUND, { "Ship_l_freighter_3_engine_sound" },
+		{
+			duration = 8.3,
+			flags = LOOP
+		}
+	},
+	{
+		15.750, START_PATH_ANIMATION, { "Ship_l_freighter_3", "Path_3_b" },
+		{
+			duration = 8.500,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		16.003, ATTACH_ENTITY, { "Ship_r_fighter_1_engine_fire_1", "Ship_r_fighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		16.003, START_PSYS, { "Ship_r_fighter_1_engine_fire_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		16.003, START_PSYS_PROP_ANIM, {"Ship_r_fighter_1_engine_fire_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		16.003, ATTACH_ENTITY, { "Ship_r_fighter_1_trail_1", "Ship_r_fighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		16.003, START_PSYS, { "Ship_r_fighter_1_trail_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		16.003, START_PSYS_PROP_ANIM, {"Ship_r_fighter_1_trail_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		16.003, START_SOUND, { "Ship_r_fighter_1_engine_sound" },
+		{
+			duration = 6.8,
+			flags = LOOP
+		}
+	},
+	{
+		16.003, START_PATH_ANIMATION, { "Ship_r_fighter_1", "Path_3_a" },
+		{
+			duration = 7.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		16.503, ATTACH_ENTITY, { "Ship_l_freighter_1_engine_fire_1", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		16.503, START_PSYS, { "Ship_l_freighter_1_engine_fire_1" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		16.503, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_engine_fire_1"}, {
+            duration = 9.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		16.503, ATTACH_ENTITY, { "Ship_l_freighter_1_engine_fire_2", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		16.503, START_PSYS, { "Ship_l_freighter_1_engine_fire_2" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		16.503, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_engine_fire_2"}, {
+            duration = 9.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		16.503, ATTACH_ENTITY, { "Ship_l_freighter_1_trail_1", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		16.503, START_PSYS, { "Ship_l_freighter_1_trail_1" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		16.503, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_trail_1"}, {
+            duration = 9.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		16.503, ATTACH_ENTITY, { "Ship_l_freighter_1_trail_2", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		16.503, START_PSYS, { "Ship_l_freighter_1_trail_2" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		16.503, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_trail_2"}, {
+            duration = 9.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		16.503, START_SOUND, { "Ship_l_freighter_1_engine_sound" },
+		{
+			duration = 9.8,
+			flags = LOOP
+		}
+	},
+	{
+		16.503, START_PATH_ANIMATION, { "Ship_l_freighter_1", "Path_4_b" },
+		{
+			duration = 10.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		17.003, ATTACH_ENTITY, { "Ship_r_fighter_2_engine_fire_1", "Ship_r_fighter_2" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		17.003, START_PSYS, { "Ship_r_fighter_2_engine_fire_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		17.003, START_PSYS_PROP_ANIM, {"Ship_r_fighter_2_engine_fire_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		17.003, ATTACH_ENTITY, { "Ship_r_fighter_2_trail_1", "Ship_r_fighter_2" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		17.003, START_PSYS, { "Ship_r_fighter_2_trail_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		17.003, START_PSYS_PROP_ANIM, {"Ship_r_fighter_2_trail_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		17.003, START_SOUND, { "Ship_r_fighter_2_engine_sound" },
+		{
+			duration = 7.8,
+			flags = LOOP
+		}
+	},
+	{
+		17.003, START_PATH_ANIMATION, { "Ship_r_fighter_2", "Path_4_a" },
+		{
+			duration = 8.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		17.940, ATTACH_ENTITY, { "Ship_civ_elite_1_engine_fire_1", "Ship_civ_elite_1" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		17.940, START_PSYS, { "Ship_civ_elite_1_engine_fire_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		17.940, START_PSYS_PROP_ANIM, {"Ship_civ_elite_1_engine_fire_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		17.940, ATTACH_ENTITY, { "Ship_civ_elite_1_trail_1", "Ship_civ_elite_1" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		17.940, START_PSYS, { "Ship_civ_elite_1_trail_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		17.940, START_PSYS_PROP_ANIM, {"Ship_civ_elite_1_trail_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		17.940, START_SOUND, { "Ship_civ_elite_1_engine_sound" },
+		{
+			duration = 7.8,
+			flags = LOOP
+		}
+	},
+	{
+		17.940, START_PATH_ANIMATION, { "Ship_civ_elite_1", "Path_4_b" },
+		{
+			duration = 8.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 10, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		17.940, ATTACH_ENTITY, { "Ship_civ_fighter_1_engine_fire_1", "Ship_civ_fighter_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		17.940, START_PSYS, { "Ship_civ_fighter_1_engine_fire_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		17.940, START_PSYS_PROP_ANIM, {"Ship_civ_fighter_1_engine_fire_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		17.940, ATTACH_ENTITY, { "Ship_civ_fighter_1_trail_1", "Ship_civ_fighter_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		17.940, START_PSYS, { "Ship_civ_fighter_1_trail_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		17.940, START_PSYS_PROP_ANIM, {"Ship_civ_fighter_1_trail_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		17.940, START_SOUND, { "Ship_civ_fighter_1_engine_sound" },
+		{
+			duration = 5.8,
+			flags = LOOP
+		}
+	},
+	{
+		17.940, START_PATH_ANIMATION, { "Ship_civ_fighter_1", "Path_2_b" },
+		{
+			duration = 6.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		18.281, ATTACH_ENTITY, { "Ship_civ_freighter_1_engine_fire_1", "Ship_civ_freighter_1" },
+		{
+			duration = 1.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		18.281, START_PSYS, { "Ship_civ_freighter_1_engine_fire_1" },
+		{
+			duration = 1.8
+		}
+	},
+	{
+		18.281, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_engine_fire_1"}, {
+            duration = 1.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		18.281, ATTACH_ENTITY, { "Ship_civ_freighter_1_trail_1", "Ship_civ_freighter_1" },
+		{
+			duration = 1.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		18.281, START_PSYS, { "Ship_civ_freighter_1_trail_1" },
+		{
+			duration = 1.8
+		}
+	},
+	{
+		18.281, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_trail_1"}, {
+            duration = 1.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		18.281, START_SOUND, { "Ship_civ_freighter_1_engine_sound" },
+		{
+			duration = 1.8,
+			flags = LOOP
+		}
+	},
+	{
+		18.281, START_PATH_ANIMATION, { "Ship_civ_freighter_1", "Path_1_b" },
+		{
+			duration = 2.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		19.062, ATTACH_ENTITY, { "Ship_r_freighter_1_engine_fire_1", "Ship_r_freighter_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		19.062, START_PSYS, { "Ship_r_freighter_1_engine_fire_1" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		19.062, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_engine_fire_1"}, {
+            duration = 8.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		19.062, ATTACH_ENTITY, { "Ship_r_freighter_1_engine_fire_2", "Ship_r_freighter_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		19.062, START_PSYS, { "Ship_r_freighter_1_engine_fire_2" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		19.062, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_engine_fire_2"}, {
+            duration = 8.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		19.062, ATTACH_ENTITY, { "Ship_r_freighter_1_trail_1", "Ship_r_freighter_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		19.062, START_PSYS, { "Ship_r_freighter_1_trail_1" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		19.062, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_trail_1"}, {
+            duration = 8.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		19.062, ATTACH_ENTITY, { "Ship_r_freighter_1_trail_2", "Ship_r_freighter_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		19.062, START_PSYS, { "Ship_r_freighter_1_trail_2" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		19.062, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_trail_2"}, {
+            duration = 8.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		19.062, START_SOUND, { "Ship_r_freighter_1_engine_sound" },
+		{
+			duration = 8.8,
+			flags = LOOP
+		}
+	},
+	{
+		19.062, START_PATH_ANIMATION, { "Ship_r_freighter_1", "Path_5" },
+		{
+			duration = 9.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		22.065, ATTACH_ENTITY, { "Ship_civ_freighter_1_engine_fire_1", "Ship_civ_freighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		22.065, START_PSYS, { "Ship_civ_freighter_1_engine_fire_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		22.065, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_engine_fire_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		22.065, ATTACH_ENTITY, { "Ship_civ_freighter_1_trail_1", "Ship_civ_freighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		22.065, START_PSYS, { "Ship_civ_freighter_1_trail_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		22.065, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_trail_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		22.065, START_SOUND, { "Ship_civ_freighter_1_engine_sound" },
+		{
+			duration = 6.8,
+			flags = LOOP
+		}
+	},
+	{
+		22.065, START_PATH_ANIMATION, { "Ship_civ_freighter_1", "Path_3_b" },
+		{
+			duration = 7.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		23.000, ATTACH_ENTITY, { "Ship_k_freighter_1_engine_fire_1", "Ship_k_freighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		23.000, START_PSYS, { "Ship_k_freighter_1_engine_fire_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		23.000, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_engine_fire_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		23.000, ATTACH_ENTITY, { "Ship_k_freighter_1_engine_fire_2", "Ship_k_freighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		23.000, START_PSYS, { "Ship_k_freighter_1_engine_fire_2" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		23.000, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_engine_fire_2"}, {
+            duration = 6.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		23.000, ATTACH_ENTITY, { "Ship_k_freighter_1_trail_1", "Ship_k_freighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		23.000, START_PSYS, { "Ship_k_freighter_1_trail_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		23.000, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_trail_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		23.000, ATTACH_ENTITY, { "Ship_k_freighter_1_trail_2", "Ship_k_freighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		23.000, START_PSYS, { "Ship_k_freighter_1_trail_2" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		23.000, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_trail_2"}, {
+            duration = 6.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		23.000, START_SOUND, { "Ship_k_freighter_1_engine_sound" },
+		{
+			duration = 6.8,
+			flags = LOOP
+		}
+	},
+	{
+		23.000, START_PATH_ANIMATION, { "Ship_k_freighter_1", "Path_2_a" },
+		{
+			duration = 7.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		23.940, ATTACH_ENTITY, { "Ship_civ_fighter_1_engine_fire_1", "Ship_civ_fighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		23.940, START_PSYS, { "Ship_civ_fighter_1_engine_fire_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		23.940, START_PSYS_PROP_ANIM, {"Ship_civ_fighter_1_engine_fire_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		23.940, ATTACH_ENTITY, { "Ship_civ_fighter_1_trail_1", "Ship_civ_fighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		23.940, START_PSYS, { "Ship_civ_fighter_1_trail_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		23.940, START_PSYS_PROP_ANIM, {"Ship_civ_fighter_1_trail_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		23.940, START_SOUND, { "Ship_civ_fighter_1_engine_sound" },
+		{
+			duration = 6.8,
+			flags = LOOP
+		}
+	},
+	{
+		23.940, START_PATH_ANIMATION, { "Ship_civ_fighter_1", "Path_3_a" },
+		{
+			duration = 7.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		25.003, ATTACH_ENTITY, { "Ship_l_freighter_2_engine_fire_1", "Ship_l_freighter_2" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		25.003, START_PSYS, { "Ship_l_freighter_2_engine_fire_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		25.003, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_engine_fire_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		25.003, ATTACH_ENTITY, { "Ship_l_freighter_2_engine_fire_2", "Ship_l_freighter_2" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		25.003, START_PSYS, { "Ship_l_freighter_2_engine_fire_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		25.003, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_engine_fire_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		25.003, ATTACH_ENTITY, { "Ship_l_freighter_2_trail_1", "Ship_l_freighter_2" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		25.003, START_PSYS, { "Ship_l_freighter_2_trail_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		25.003, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_trail_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		25.003, ATTACH_ENTITY, { "Ship_l_freighter_2_trail_2", "Ship_l_freighter_2" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		25.003, START_PSYS, { "Ship_l_freighter_2_trail_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		25.003, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_trail_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		25.003, START_SOUND, { "Ship_l_freighter_2_engine_sound" },
+		{
+			duration = 2.8,
+			flags = LOOP
+		}
+	},
+	{
+		25.003, START_PATH_ANIMATION, { "Ship_l_freighter_2", "Path_1_a" },
+		{
+			duration = 3.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		26.971, ATTACH_ENTITY, { "Ship_r_fighter_2_engine_fire_1", "Ship_r_fighter_2" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		26.971, START_PSYS, { "Ship_r_fighter_2_engine_fire_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		26.971, START_PSYS_PROP_ANIM, {"Ship_r_fighter_2_engine_fire_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		26.971, ATTACH_ENTITY, { "Ship_r_fighter_2_trail_1", "Ship_r_fighter_2" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		26.971, START_PSYS, { "Ship_r_fighter_2_trail_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		26.971, START_PSYS_PROP_ANIM, {"Ship_r_fighter_2_trail_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		26.971, START_SOUND, { "Ship_r_fighter_2_engine_sound" },
+		{
+			duration = 7.8,
+			flags = LOOP
+		}
+	},
+	{
+		26.971, START_PATH_ANIMATION, { "Ship_r_fighter_2", "Path_4_b" },
+		{
+			duration = 8.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		26.971, ATTACH_ENTITY, { "Ship_civ_elite_1_engine_fire_1", "Ship_civ_elite_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		26.971, START_PSYS, { "Ship_civ_elite_1_engine_fire_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		26.971, START_PSYS_PROP_ANIM, {"Ship_civ_elite_1_engine_fire_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		26.971, ATTACH_ENTITY, { "Ship_civ_elite_1_trail_1", "Ship_civ_elite_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		26.971, START_PSYS, { "Ship_civ_elite_1_trail_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		26.971, START_PSYS_PROP_ANIM, {"Ship_civ_elite_1_trail_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		26.971, START_SOUND, { "Ship_civ_elite_1_engine_sound" },
+		{
+			duration = 5.8,
+			flags = LOOP
+		}
+	},
+	{
+		26.971, START_PATH_ANIMATION, { "Ship_civ_elite_1", "Path_2_a" },
+		{
+			duration = 6.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		26.971, ATTACH_ENTITY, { "Ship_r_fighter_1_engine_fire_1", "Ship_r_fighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		26.971, START_PSYS, { "Ship_r_fighter_1_engine_fire_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		26.971, START_PSYS_PROP_ANIM, {"Ship_r_fighter_1_engine_fire_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		26.971, ATTACH_ENTITY, { "Ship_r_fighter_1_trail_1", "Ship_r_fighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		26.971, START_PSYS, { "Ship_r_fighter_1_trail_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		26.971, START_PSYS_PROP_ANIM, {"Ship_r_fighter_1_trail_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		26.971, START_SOUND, { "Ship_r_fighter_1_engine_sound" },
+		{
+			duration = 6.8,
+			flags = LOOP
+		}
+	},
+	{
+		26.971, START_PATH_ANIMATION, { "Ship_r_fighter_1", "Path_4_b" },
+		{
+			duration = 7.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, -5, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		28.125, ATTACH_ENTITY, { "Ship_r_freighter_1_engine_fire_1", "Ship_r_freighter_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		28.125, START_PSYS, { "Ship_r_freighter_1_engine_fire_1" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		28.125, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_engine_fire_1"}, {
+            duration = 8.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		28.125, ATTACH_ENTITY, { "Ship_r_freighter_1_engine_fire_2", "Ship_r_freighter_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		28.125, START_PSYS, { "Ship_r_freighter_1_engine_fire_2" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		28.125, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_engine_fire_2"}, {
+            duration = 8.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		28.125, ATTACH_ENTITY, { "Ship_r_freighter_1_trail_1", "Ship_r_freighter_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		28.125, START_PSYS, { "Ship_r_freighter_1_trail_1" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		28.125, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_trail_1"}, {
+            duration = 8.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		28.125, ATTACH_ENTITY, { "Ship_r_freighter_1_trail_2", "Ship_r_freighter_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		28.125, START_PSYS, { "Ship_r_freighter_1_trail_2" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		28.125, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_trail_2"}, {
+            duration = 8.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		28.125, START_SOUND, { "Ship_r_freighter_1_engine_sound" },
+		{
+			duration = 8.8,
+			flags = LOOP
+		}
+	},
+	{
+		28.125, START_PATH_ANIMATION, { "Ship_r_freighter_1", "Path_5" },
+		{
+			duration = 9.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		28.534, ATTACH_ENTITY, { "Ship_r_elite_1_engine_fire_1", "Ship_r_elite_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		28.534, START_PSYS, { "Ship_r_elite_1_engine_fire_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		28.534, START_PSYS_PROP_ANIM, {"Ship_r_elite_1_engine_fire_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		28.534, ATTACH_ENTITY, { "Ship_r_elite_1_engine_fire_2", "Ship_r_elite_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		28.534, START_PSYS, { "Ship_r_elite_1_engine_fire_2" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		28.534, START_PSYS_PROP_ANIM, {"Ship_r_elite_1_engine_fire_2"}, {
+            duration = 5.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		28.534, ATTACH_ENTITY, { "Ship_r_elite_1_trail_1", "Ship_r_elite_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		28.534, START_PSYS, { "Ship_r_elite_1_trail_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		28.534, START_PSYS_PROP_ANIM, {"Ship_r_elite_1_trail_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		28.534, ATTACH_ENTITY, { "Ship_r_elite_1_trail_2", "Ship_r_elite_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		28.534, START_PSYS, { "Ship_r_elite_1_trail_2" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		28.534, START_PSYS_PROP_ANIM, {"Ship_r_elite_1_trail_2"}, {
+            duration = 5.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		28.534, START_SOUND, { "Ship_r_elite_1_engine_sound" },
+		{
+			duration = 5.8,
+			flags = LOOP
+		}
+	},
+	{
+		28.534, START_PATH_ANIMATION, { "Ship_r_elite_1", "Path_2_b" },
+		{
+			duration = 6.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		30.034, ATTACH_ENTITY, { "Ship_l_freighter_2_engine_fire_1", "Ship_l_freighter_2" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		30.034, START_PSYS, { "Ship_l_freighter_2_engine_fire_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		30.034, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_engine_fire_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		30.034, ATTACH_ENTITY, { "Ship_l_freighter_2_engine_fire_2", "Ship_l_freighter_2" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		30.034, START_PSYS, { "Ship_l_freighter_2_engine_fire_2" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		30.034, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_engine_fire_2"}, {
+            duration = 7.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		30.034, ATTACH_ENTITY, { "Ship_l_freighter_2_trail_1", "Ship_l_freighter_2" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		30.034, START_PSYS, { "Ship_l_freighter_2_trail_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		30.034, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_trail_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		30.034, ATTACH_ENTITY, { "Ship_l_freighter_2_trail_2", "Ship_l_freighter_2" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		30.034, START_PSYS, { "Ship_l_freighter_2_trail_2" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		30.034, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_trail_2"}, {
+            duration = 7.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		30.034, START_SOUND, { "Ship_l_freighter_2_engine_sound" },
+		{
+			duration = 7.8,
+			flags = LOOP
+		}
+	},
+	{
+		30.034, START_PATH_ANIMATION, { "Ship_l_freighter_2", "Path_4_b" },
+		{
+			duration = 8.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		31.625, ATTACH_ENTITY, { "Ship_k_freighter_1_engine_fire_1", "Ship_k_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		31.625, START_PSYS, { "Ship_k_freighter_1_engine_fire_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		31.625, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_engine_fire_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		31.625, ATTACH_ENTITY, { "Ship_k_freighter_1_engine_fire_2", "Ship_k_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		31.625, START_PSYS, { "Ship_k_freighter_1_engine_fire_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		31.625, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_engine_fire_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		31.625, ATTACH_ENTITY, { "Ship_k_freighter_1_trail_1", "Ship_k_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		31.625, START_PSYS, { "Ship_k_freighter_1_trail_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		31.625, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_trail_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		31.625, ATTACH_ENTITY, { "Ship_k_freighter_1_trail_2", "Ship_k_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		31.625, START_PSYS, { "Ship_k_freighter_1_trail_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		31.625, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_trail_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		31.625, START_SOUND, { "Ship_k_freighter_1_engine_sound" },
+		{
+			duration = 2.8,
+			flags = LOOP
+		}
+	},
+	{
+		31.625, START_PATH_ANIMATION, { "Ship_k_freighter_1", "Path_1_a" },
+		{
+			duration = 3.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		32.000, ATTACH_ENTITY, { "Ship_civ_fighter_1_engine_fire_1", "Ship_civ_fighter_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		32.000, START_PSYS, { "Ship_civ_fighter_1_engine_fire_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		32.000, START_PSYS_PROP_ANIM, {"Ship_civ_fighter_1_engine_fire_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		32.000, ATTACH_ENTITY, { "Ship_civ_fighter_1_trail_1", "Ship_civ_fighter_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		32.000, START_PSYS, { "Ship_civ_fighter_1_trail_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		32.000, START_PSYS_PROP_ANIM, {"Ship_civ_fighter_1_trail_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		32.000, START_SOUND, { "Ship_civ_fighter_1_engine_sound" },
+		{
+			duration = 5.8,
+			flags = LOOP
+		}
+	},
+	{
+		32.000, START_PATH_ANIMATION, { "Ship_civ_fighter_1", "Path_2_b" },
+		{
+			duration = 6.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		33.034, ATTACH_ENTITY, { "Ship_civ_freighter_1_engine_fire_1", "Ship_civ_freighter_1" },
+		{
+			duration = 1.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		33.034, START_PSYS, { "Ship_civ_freighter_1_engine_fire_1" },
+		{
+			duration = 1.8
+		}
+	},
+	{
+		33.034, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_engine_fire_1"}, {
+            duration = 1.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		33.034, ATTACH_ENTITY, { "Ship_civ_freighter_1_trail_1", "Ship_civ_freighter_1" },
+		{
+			duration = 1.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		33.034, START_PSYS, { "Ship_civ_freighter_1_trail_1" },
+		{
+			duration = 1.8
+		}
+	},
+	{
+		33.034, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_trail_1"}, {
+            duration = 1.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		33.034, START_SOUND, { "Ship_civ_freighter_1_engine_sound" },
+		{
+			duration = 1.8,
+			flags = LOOP
+		}
+	},
+	{
+		33.034, START_PATH_ANIMATION, { "Ship_civ_freighter_1", "Path_1_b" },
+		{
+			duration = 2.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		34.000, ATTACH_ENTITY, { "Ship_l_freighter_1_engine_fire_1", "Ship_l_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		34.000, START_PSYS, { "Ship_l_freighter_1_engine_fire_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		34.000, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_engine_fire_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		34.000, ATTACH_ENTITY, { "Ship_l_freighter_1_engine_fire_2", "Ship_l_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		34.000, START_PSYS, { "Ship_l_freighter_1_engine_fire_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		34.000, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_engine_fire_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		34.000, ATTACH_ENTITY, { "Ship_l_freighter_1_trail_1", "Ship_l_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		34.000, START_PSYS, { "Ship_l_freighter_1_trail_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		34.000, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_trail_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		34.000, ATTACH_ENTITY, { "Ship_l_freighter_1_trail_2", "Ship_l_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		34.000, START_PSYS, { "Ship_l_freighter_1_trail_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		34.000, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_trail_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		34.000, START_SOUND, { "Ship_l_freighter_1_engine_sound" },
+		{
+			duration = 2.8,
+			flags = LOOP
+		}
+	},
+	{
+		34.000, START_PATH_ANIMATION, { "Ship_l_freighter_1", "Path_1_a" },
+		{
+			duration = 3.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		35.938, ATTACH_ENTITY, { "Ship_civ_freighter_1_engine_fire_1", "Ship_civ_freighter_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		35.938, START_PSYS, { "Ship_civ_freighter_1_engine_fire_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		35.938, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_engine_fire_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		35.938, ATTACH_ENTITY, { "Ship_civ_freighter_1_trail_1", "Ship_civ_freighter_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		35.938, START_PSYS, { "Ship_civ_freighter_1_trail_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		35.938, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_trail_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		35.938, START_SOUND, { "Ship_civ_freighter_1_engine_sound" },
+		{
+			duration = 5.8,
+			flags = LOOP
+		}
+	},
+	{
+		35.938, START_PATH_ANIMATION, { "Ship_civ_freighter_1", "Path_2_a" },
+		{
+			duration = 6.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		35.938, ATTACH_ENTITY, { "Ship_l_freighter_3_engine_fire_1", "Ship_l_freighter_3" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		35.938, START_PSYS, { "Ship_l_freighter_3_engine_fire_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		35.938, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_engine_fire_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		35.938, ATTACH_ENTITY, { "Ship_l_freighter_3_engine_fire_2", "Ship_l_freighter_3" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		35.938, START_PSYS, { "Ship_l_freighter_3_engine_fire_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		35.938, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_engine_fire_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		35.938, ATTACH_ENTITY, { "Ship_l_freighter_3_trail_1", "Ship_l_freighter_3" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		35.938, START_PSYS, { "Ship_l_freighter_3_trail_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		35.938, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_trail_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		35.938, ATTACH_ENTITY, { "Ship_l_freighter_3_trail_2", "Ship_l_freighter_3" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		35.938, START_PSYS, { "Ship_l_freighter_3_trail_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		35.938, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_trail_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		35.938, START_SOUND, { "Ship_l_freighter_3_engine_sound" },
+		{
+			duration = 2.8,
+			flags = LOOP
+		}
+	},
+	{
+		35.938, START_PATH_ANIMATION, { "Ship_l_freighter_3", "Path_1_b" },
+		{
+			duration = 3.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		38.562, ATTACH_ENTITY, { "Ship_r_freighter_1_engine_fire_1", "Ship_r_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		38.562, START_PSYS, { "Ship_r_freighter_1_engine_fire_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		38.562, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_engine_fire_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		38.562, ATTACH_ENTITY, { "Ship_r_freighter_1_engine_fire_2", "Ship_r_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		38.562, START_PSYS, { "Ship_r_freighter_1_engine_fire_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		38.562, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_engine_fire_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		38.562, ATTACH_ENTITY, { "Ship_r_freighter_1_trail_1", "Ship_r_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		38.562, START_PSYS, { "Ship_r_freighter_1_trail_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		38.562, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_trail_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		38.562, ATTACH_ENTITY, { "Ship_r_freighter_1_trail_2", "Ship_r_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		38.562, START_PSYS, { "Ship_r_freighter_1_trail_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		38.562, START_PSYS_PROP_ANIM, {"Ship_r_freighter_1_trail_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		38.562, START_SOUND, { "Ship_r_freighter_1_engine_sound" },
+		{
+			duration = 2.8,
+			flags = LOOP
+		}
+	},
+	{
+		38.562, START_PATH_ANIMATION, { "Ship_r_freighter_1", "Path_1_a" },
+		{
+			duration = 3.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		39.034, ATTACH_ENTITY, { "Ship_r_elite_2_engine_fire_1", "Ship_r_elite_2" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		39.034, START_PSYS, { "Ship_r_elite_2_engine_fire_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		39.034, START_PSYS_PROP_ANIM, {"Ship_r_elite_2_engine_fire_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		39.034, ATTACH_ENTITY, { "Ship_r_elite_2_engine_fire_2", "Ship_r_elite_2" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		39.034, START_PSYS, { "Ship_r_elite_2_engine_fire_2" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		39.034, START_PSYS_PROP_ANIM, {"Ship_r_elite_2_engine_fire_2"}, {
+            duration = 7.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		39.034, ATTACH_ENTITY, { "Ship_r_elite_2_trail_1", "Ship_r_elite_2" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		39.034, START_PSYS, { "Ship_r_elite_2_trail_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		39.034, START_PSYS_PROP_ANIM, {"Ship_r_elite_2_trail_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		39.034, ATTACH_ENTITY, { "Ship_r_elite_2_trail_2", "Ship_r_elite_2" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		39.034, START_PSYS, { "Ship_r_elite_2_trail_2" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		39.034, START_PSYS_PROP_ANIM, {"Ship_r_elite_2_trail_2"}, {
+            duration = 7.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		39.034, START_SOUND, { "Ship_r_elite_2_engine_sound" },
+		{
+			duration = 7.8,
+			flags = LOOP
+		}
+	},
+	{
+		39.034, START_PATH_ANIMATION, { "Ship_r_elite_2", "Path_4_a" },
+		{
+			duration = 8.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		39.999, ATTACH_ENTITY, { "Ship_l_freighter_1_engine_fire_1", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		39.999, START_PSYS, { "Ship_l_freighter_1_engine_fire_1" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		39.999, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_engine_fire_1"}, {
+            duration = 9.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		39.999, ATTACH_ENTITY, { "Ship_l_freighter_1_engine_fire_2", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		39.999, START_PSYS, { "Ship_l_freighter_1_engine_fire_2" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		39.999, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_engine_fire_2"}, {
+            duration = 9.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		39.999, ATTACH_ENTITY, { "Ship_l_freighter_1_trail_1", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		39.999, START_PSYS, { "Ship_l_freighter_1_trail_1" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		39.999, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_trail_1"}, {
+            duration = 9.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		39.999, ATTACH_ENTITY, { "Ship_l_freighter_1_trail_2", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		39.999, START_PSYS, { "Ship_l_freighter_1_trail_2" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		39.999, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_trail_2"}, {
+            duration = 9.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		39.999, START_SOUND, { "Ship_l_freighter_1_engine_sound" },
+		{
+			duration = 9.8,
+			flags = LOOP
+		}
+	},
+	{
+		39.999, START_PATH_ANIMATION, { "Ship_l_freighter_1", "Path_4_a" },
+		{
+			duration = 10.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		40.000, ATTACH_ENTITY, { "Ship_r_fighter_2_engine_fire_1", "Ship_r_fighter_2" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		40.000, START_PSYS, { "Ship_r_fighter_2_engine_fire_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		40.000, START_PSYS_PROP_ANIM, {"Ship_r_fighter_2_engine_fire_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		40.000, ATTACH_ENTITY, { "Ship_r_fighter_2_trail_1", "Ship_r_fighter_2" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		40.000, START_PSYS, { "Ship_r_fighter_2_trail_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		40.000, START_PSYS_PROP_ANIM, {"Ship_r_fighter_2_trail_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		40.000, START_SOUND, { "Ship_r_fighter_2_engine_sound" },
+		{
+			duration = 7.8,
+			flags = LOOP
+		}
+	},
+	{
+		40.000, START_PATH_ANIMATION, { "Ship_r_fighter_2", "Path_4_b" },
+		{
+			duration = 8.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		40.563, ATTACH_ENTITY, { "Ship_l_freighter_2_engine_fire_1", "Ship_l_freighter_2" },
+		{
+			duration = 8.3,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		40.563, START_PSYS, { "Ship_l_freighter_2_engine_fire_1" },
+		{
+			duration = 8.3
+		}
+	},
+	{
+		40.563, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_engine_fire_1"}, {
+            duration = 8.3,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		40.563, ATTACH_ENTITY, { "Ship_l_freighter_2_engine_fire_2", "Ship_l_freighter_2" },
+		{
+			duration = 8.3,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		40.563, START_PSYS, { "Ship_l_freighter_2_engine_fire_2" },
+		{
+			duration = 8.3
+		}
+	},
+	{
+		40.563, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_engine_fire_2"}, {
+            duration = 8.3,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		40.563, ATTACH_ENTITY, { "Ship_l_freighter_2_trail_1", "Ship_l_freighter_2" },
+		{
+			duration = 8.3,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		40.563, START_PSYS, { "Ship_l_freighter_2_trail_1" },
+		{
+			duration = 8.3
+		}
+	},
+	{
+		40.563, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_trail_1"}, {
+            duration = 8.3,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		40.563, ATTACH_ENTITY, { "Ship_l_freighter_2_trail_2", "Ship_l_freighter_2" },
+		{
+			duration = 8.3,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		40.563, START_PSYS, { "Ship_l_freighter_2_trail_2" },
+		{
+			duration = 8.3
+		}
+	},
+	{
+		40.563, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_trail_2"}, {
+            duration = 8.3,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		40.563, START_SOUND, { "Ship_l_freighter_2_engine_sound" },
+		{
+			duration = 8.3,
+			flags = LOOP
+		}
+	},
+	{
+		40.563, START_PATH_ANIMATION, { "Ship_l_freighter_2", "Path_3_a" },
+		{
+			duration = 8.500,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		40.903, ATTACH_ENTITY, { "Ship_k_freighter_1_engine_fire_1", "Ship_k_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		40.903, START_PSYS, { "Ship_k_freighter_1_engine_fire_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		40.903, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_engine_fire_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		40.903, ATTACH_ENTITY, { "Ship_k_freighter_1_engine_fire_2", "Ship_k_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		40.903, START_PSYS, { "Ship_k_freighter_1_engine_fire_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		40.903, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_engine_fire_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		40.903, ATTACH_ENTITY, { "Ship_k_freighter_1_trail_1", "Ship_k_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		40.903, START_PSYS, { "Ship_k_freighter_1_trail_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		40.903, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_trail_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		40.903, ATTACH_ENTITY, { "Ship_k_freighter_1_trail_2", "Ship_k_freighter_1" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		40.903, START_PSYS, { "Ship_k_freighter_1_trail_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		40.903, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_trail_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		40.903, START_SOUND, { "Ship_k_freighter_1_engine_sound" },
+		{
+			duration = 2.8,
+			flags = LOOP
+		}
+	},
+	{
+		40.903, START_PATH_ANIMATION, { "Ship_k_freighter_1", "Path_1_b" },
+		{
+			duration = 3.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		41.903, ATTACH_ENTITY, { "Ship_r_fighter_1_engine_fire_1", "Ship_r_fighter_1" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		41.903, START_PSYS, { "Ship_r_fighter_1_engine_fire_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		41.903, START_PSYS_PROP_ANIM, {"Ship_r_fighter_1_engine_fire_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		41.903, ATTACH_ENTITY, { "Ship_r_fighter_1_trail_1", "Ship_r_fighter_1" },
+		{
+			duration = 7.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		41.903, START_PSYS, { "Ship_r_fighter_1_trail_1" },
+		{
+			duration = 7.8
+		}
+	},
+	{
+		41.903, START_PSYS_PROP_ANIM, {"Ship_r_fighter_1_trail_1"}, {
+            duration = 7.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		41.903, START_SOUND, { "Ship_r_fighter_1_engine_sound" },
+		{
+			duration = 7.8,
+			flags = LOOP
+		}
+	},
+	{
+		41.903, START_PATH_ANIMATION, { "Ship_r_fighter_1", "Path_4_a" },
+		{
+			duration = 8.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 10, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+			param_curve =
+			{
+				CLSID = "FreeFormPCurve",
+				points =
+				{
+					{  0.000000,  0.000000,  0.000000,  0.000000 },
+					{  0.480769,  0.525641,  0.000000,  0.458333 },
+					{  0.692308,  0.858974,  0.750000,  0.684211 },
+					{  1.000000,  1.000000,  0.000000,  0.000000 },
+				}
+			},
+			pcurve_period = -1
+		}
+	},
+
+
+	{
+		41.971, ATTACH_ENTITY, { "Ship_l_freighter_3_engine_fire_1", "Ship_l_freighter_3" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		41.971, START_PSYS, { "Ship_l_freighter_3_engine_fire_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		41.971, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_engine_fire_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		41.971, ATTACH_ENTITY, { "Ship_l_freighter_3_engine_fire_2", "Ship_l_freighter_3" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		41.971, START_PSYS, { "Ship_l_freighter_3_engine_fire_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		41.971, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_engine_fire_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		41.971, ATTACH_ENTITY, { "Ship_l_freighter_3_trail_1", "Ship_l_freighter_3" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		41.971, START_PSYS, { "Ship_l_freighter_3_trail_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		41.971, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_trail_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		41.971, ATTACH_ENTITY, { "Ship_l_freighter_3_trail_2", "Ship_l_freighter_3" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		41.971, START_PSYS, { "Ship_l_freighter_3_trail_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		41.971, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_trail_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		41.971, START_SOUND, { "Ship_l_freighter_3_engine_sound" },
+		{
+			duration = 2.8,
+			flags = LOOP
+		}
+	},
+	{
+		41.971, START_PATH_ANIMATION, { "Ship_l_freighter_3", "Path_1_b" },
+		{
+			duration = 3.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		42.971, ATTACH_ENTITY, { "Ship_civ_freighter_1_engine_fire_1", "Ship_civ_freighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		42.971, START_PSYS, { "Ship_civ_freighter_1_engine_fire_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		42.971, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_engine_fire_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		42.971, ATTACH_ENTITY, { "Ship_civ_freighter_1_trail_1", "Ship_civ_freighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		42.971, START_PSYS, { "Ship_civ_freighter_1_trail_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		42.971, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_trail_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		42.971, START_SOUND, { "Ship_civ_freighter_1_engine_sound" },
+		{
+			duration = 6.8,
+			flags = LOOP
+		}
+	},
+	{
+		42.971, START_PATH_ANIMATION, { "Ship_civ_freighter_1", "Path_3_a" },
+		{
+			duration = 7.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		43.153, ATTACH_ENTITY, { "Ship_civ_elite_1_engine_fire_1", "Ship_civ_elite_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		43.153, START_PSYS, { "Ship_civ_elite_1_engine_fire_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		43.153, START_PSYS_PROP_ANIM, {"Ship_civ_elite_1_engine_fire_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		43.153, ATTACH_ENTITY, { "Ship_civ_elite_1_trail_1", "Ship_civ_elite_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		43.153, START_PSYS, { "Ship_civ_elite_1_trail_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		43.153, START_PSYS_PROP_ANIM, {"Ship_civ_elite_1_trail_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		43.153, START_SOUND, { "Ship_civ_elite_1_engine_sound" },
+		{
+			duration = 5.8,
+			flags = LOOP
+		}
+	},
+	{
+		43.153, START_PATH_ANIMATION, { "Ship_civ_elite_1", "Path_2_a" },
+		{
+			duration = 6.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		49.966, ATTACH_ENTITY, { "Ship_l_freighter_1_engine_fire_1", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		49.966, START_PSYS, { "Ship_l_freighter_1_engine_fire_1" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		49.966, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_engine_fire_1"}, {
+            duration = 9.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		49.966, ATTACH_ENTITY, { "Ship_l_freighter_1_engine_fire_2", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		49.966, START_PSYS, { "Ship_l_freighter_1_engine_fire_2" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		49.966, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_engine_fire_2"}, {
+            duration = 9.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		49.966, ATTACH_ENTITY, { "Ship_l_freighter_1_trail_1", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		49.966, START_PSYS, { "Ship_l_freighter_1_trail_1" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		49.966, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_trail_1"}, {
+            duration = 9.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		49.966, ATTACH_ENTITY, { "Ship_l_freighter_1_trail_2", "Ship_l_freighter_1" },
+		{
+			duration = 9.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		49.966, START_PSYS, { "Ship_l_freighter_1_trail_2" },
+		{
+			duration = 9.8
+		}
+	},
+	{
+		49.966, START_PSYS_PROP_ANIM, {"Ship_l_freighter_1_trail_2"}, {
+            duration = 9.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		49.966, START_SOUND, { "Ship_l_freighter_1_engine_sound" },
+		{
+			duration = 9.8,
+			flags = LOOP
+		}
+	},
+	{
+		49.966, START_PATH_ANIMATION, { "Ship_l_freighter_1", "Path_4_a" },
+		{
+			duration = 10.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		50.034, ATTACH_ENTITY, { "Ship_k_freighter_1_engine_fire_1", "Ship_k_freighter_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		50.034, START_PSYS, { "Ship_k_freighter_1_engine_fire_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		50.034, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_engine_fire_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		50.034, ATTACH_ENTITY, { "Ship_k_freighter_1_engine_fire_2", "Ship_k_freighter_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		50.034, START_PSYS, { "Ship_k_freighter_1_engine_fire_2" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		50.034, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_engine_fire_2"}, {
+            duration = 5.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		50.034, ATTACH_ENTITY, { "Ship_k_freighter_1_trail_1", "Ship_k_freighter_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		50.034, START_PSYS, { "Ship_k_freighter_1_trail_1" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		50.034, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_trail_1"}, {
+            duration = 5.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		50.034, ATTACH_ENTITY, { "Ship_k_freighter_1_trail_2", "Ship_k_freighter_1" },
+		{
+			duration = 5.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		50.034, START_PSYS, { "Ship_k_freighter_1_trail_2" },
+		{
+			duration = 5.8
+		}
+	},
+	{
+		50.034, START_PSYS_PROP_ANIM, {"Ship_k_freighter_1_trail_2"}, {
+            duration = 5.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		50.034, START_SOUND, { "Ship_k_freighter_1_engine_sound" },
+		{
+			duration = 5.8,
+			flags = LOOP
+		}
+	},
+	{
+		50.034, START_PATH_ANIMATION, { "Ship_k_freighter_1", "Path_4_a" },
+		{
+			duration = 6.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		50.409, ATTACH_ENTITY, { "Ship_l_freighter_3_engine_fire_1", "Ship_l_freighter_3" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		50.409, START_PSYS, { "Ship_l_freighter_3_engine_fire_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		50.409, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_engine_fire_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		50.409, ATTACH_ENTITY, { "Ship_l_freighter_3_engine_fire_2", "Ship_l_freighter_3" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		50.409, START_PSYS, { "Ship_l_freighter_3_engine_fire_2" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		50.409, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_engine_fire_2"}, {
+            duration = 6.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		50.409, ATTACH_ENTITY, { "Ship_l_freighter_3_trail_1", "Ship_l_freighter_3" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		50.409, START_PSYS, { "Ship_l_freighter_3_trail_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		50.409, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_trail_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		50.409, ATTACH_ENTITY, { "Ship_l_freighter_3_trail_2", "Ship_l_freighter_3" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		50.409, START_PSYS, { "Ship_l_freighter_3_trail_2" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		50.409, START_PSYS_PROP_ANIM, {"Ship_l_freighter_3_trail_2"}, {
+            duration = 6.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		50.409, START_SOUND, { "Ship_l_freighter_3_engine_sound" },
+		{
+			duration = 6.8,
+			flags = LOOP
+		}
+	},
+	{
+		50.409, START_PATH_ANIMATION, { "Ship_l_freighter_3", "Path_2_a" },
+		{
+			duration = 7.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		50.687, ATTACH_ENTITY, { "Ship_l_freighter_2_engine_fire_1", "Ship_l_freighter_2" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		50.687, START_PSYS, { "Ship_l_freighter_2_engine_fire_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		50.687, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_engine_fire_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		50.687, ATTACH_ENTITY, { "Ship_l_freighter_2_engine_fire_2", "Ship_l_freighter_2" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		50.687, START_PSYS, { "Ship_l_freighter_2_engine_fire_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		50.687, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_engine_fire_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		50.687, ATTACH_ENTITY, { "Ship_l_freighter_2_trail_1", "Ship_l_freighter_2" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		50.687, START_PSYS, { "Ship_l_freighter_2_trail_1" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		50.687, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_trail_1"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		50.687, ATTACH_ENTITY, { "Ship_l_freighter_2_trail_2", "Ship_l_freighter_2" },
+		{
+			duration = 2.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		50.687, START_PSYS, { "Ship_l_freighter_2_trail_2" },
+		{
+			duration = 2.8
+		}
+	},
+	{
+		50.687, START_PSYS_PROP_ANIM, {"Ship_l_freighter_2_trail_2"}, {
+            duration = 2.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		50.687, START_SOUND, { "Ship_l_freighter_2_engine_sound" },
+		{
+			duration = 2.8,
+			flags = LOOP
+		}
+	},
+	{
+		50.687, START_PATH_ANIMATION, { "Ship_l_freighter_2", "Path_1_b" },
+		{
+			duration = 3.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		51.034, ATTACH_ENTITY, { "Ship_armored_transport_1_engine_fire_1", "Ship_armored_transport_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		51.034, START_PSYS, { "Ship_armored_transport_1_engine_fire_1" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		51.034, START_PSYS_PROP_ANIM, {"Ship_armored_transport_1_engine_fire_1"}, {
+            duration = 8.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		51.034, ATTACH_ENTITY, { "Ship_armored_transport_1_engine_fire_2", "Ship_armored_transport_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		51.034, START_PSYS, { "Ship_armored_transport_1_engine_fire_2" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		51.034, START_PSYS_PROP_ANIM, {"Ship_armored_transport_1_engine_fire_2"}, {
+            duration = 8.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		51.034, ATTACH_ENTITY, { "Ship_armored_transport_1_trail_1", "Ship_armored_transport_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		51.034, START_PSYS, { "Ship_armored_transport_1_trail_1" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		51.034, START_PSYS_PROP_ANIM, {"Ship_armored_transport_1_trail_1"}, {
+            duration = 8.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		51.034, ATTACH_ENTITY, { "Ship_armored_transport_1_trail_2", "Ship_armored_transport_1" },
+		{
+			duration = 8.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		51.034, START_PSYS, { "Ship_armored_transport_1_trail_2" },
+		{
+			duration = 8.8
+		}
+	},
+	{
+		51.034, START_PSYS_PROP_ANIM, {"Ship_armored_transport_1_trail_2"}, {
+            duration = 8.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		51.034, START_SOUND, { "Ship_armored_transport_1_engine_sound" },
+		{
+			duration = 8.8,
+			flags = LOOP
+		}
+	},
+	{
+		51.034, START_PATH_ANIMATION, { "Ship_armored_transport_1", "Path_5" },
+		{
+			duration = 9.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		51.125, ATTACH_ENTITY, { "Ship_r_fighter_3_engine_fire_1", "Ship_r_fighter_3" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		51.125, START_PSYS, { "Ship_r_fighter_3_engine_fire_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		51.125, START_PSYS_PROP_ANIM, {"Ship_r_fighter_3_engine_fire_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		51.125, ATTACH_ENTITY, { "Ship_r_fighter_3_trail_1", "Ship_r_fighter_3" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		51.125, START_PSYS, { "Ship_r_fighter_3_trail_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		51.125, START_PSYS_PROP_ANIM, {"Ship_r_fighter_3_trail_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		51.125, START_SOUND, { "Ship_r_fighter_3_engine_sound" },
+		{
+			duration = 6.8,
+			flags = LOOP
+		}
+	},
+	{
+		51.125, START_PATH_ANIMATION, { "Ship_r_fighter_3", "Path_3_b" },
+		{
+			duration = 7.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		51.909, ATTACH_ENTITY, { "Ship_civ_elite_1_engine_fire_1", "Ship_civ_elite_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		51.909, START_PSYS, { "Ship_civ_elite_1_engine_fire_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		51.909, START_PSYS_PROP_ANIM, {"Ship_civ_elite_1_engine_fire_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		51.909, ATTACH_ENTITY, { "Ship_civ_elite_1_trail_1", "Ship_civ_elite_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		51.909, START_PSYS, { "Ship_civ_elite_1_trail_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		51.909, START_PSYS_PROP_ANIM, {"Ship_civ_elite_1_trail_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		51.909, START_SOUND, { "Ship_civ_elite_1_engine_sound" },
+		{
+			duration = 6.8,
+			flags = LOOP
+		}
+	},
+	{
+		51.909, START_PATH_ANIMATION, { "Ship_civ_elite_1", "Path_3_b" },
+		{
+			duration = 7.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+
+	{
+		52.221, ATTACH_ENTITY, { "Ship_civ_freighter_1_engine_fire_1", "Ship_civ_freighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		52.221, START_PSYS, { "Ship_civ_freighter_1_engine_fire_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		52.221, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_engine_fire_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 1.00 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+	{
+		52.221, ATTACH_ENTITY, { "Ship_civ_freighter_1_trail_1", "Ship_civ_freighter_1" },
+		{
+			duration = 6.8,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpEngine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		52.221, START_PSYS, { "Ship_civ_freighter_1_trail_1" },
+		{
+			duration = 6.8
+		}
+	},
+	{
+		52.221, START_PSYS_PROP_ANIM, {"Ship_civ_freighter_1_trail_1"}, {
+            duration = 6.8,
+            psysprops = {sparam = 0.89 },
+            param_curve = {
+                CLSID = "FreeFormPCurve",
+                points = { {0, 0, 0, 0}, {1, 1, 0, 0} }
+            },
+            pcurve_period = -1000
+        }
+    },
+    {
+		52.221, START_SOUND, { "Ship_civ_freighter_1_engine_sound" },
+		{
+			duration = 6.8,
+			flags = LOOP
+		}
+	},
+	{
+		52.221, START_PATH_ANIMATION, { "Ship_civ_freighter_1", "Path_3_b" },
+		{
+			duration = 7.000,
+			start_percent = 0,
+			stop_percent = 1,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			flags = POSITION + ORIENTATION + LOOK_AT,
+		}
+	},
+
+}
