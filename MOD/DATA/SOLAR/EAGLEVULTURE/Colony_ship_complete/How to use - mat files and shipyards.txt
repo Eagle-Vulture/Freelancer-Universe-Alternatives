@@ -1,0 +1,75 @@
+Used .mat files:
+
+material_library = solar\Solar_mat_dockable02.mat
+material_library = solar\solar_mat_tink.mat
+
+Biosphere texture included in cmp file.
+
+
+For example:
+
+[Solar]
+nickname = colony_ship
+ids_name = 
+ids_info = 
+type = SATELLITE
+DA_archetype = solar\misc\colony_ship.cmp
+material_library = solar\Solar_mat_dockable02.mat
+material_library = solar\solar_mat_tink.mat
+material_library = fx\envmapbasic.mat
+envmap_material = envmapbasic
+loadout = colony_ship
+LODranges = 0, 100000
+mass = 1000000
+solar_radius = 6000
+shape_name = NAV_largestation
+hit_pts = 999999961690316250000000000000000000.000000
+
+
+
+Relative positions of each shipyard_a object are Hardpoints included in the colony_ship.cmp.
+You could use their coordinates for placing the shipyard objects (nickname = shipyard) in your system.
+
+
+Or you could do the following:
+
+-add this to your loadouts.ini:
+
+[Loadout]
+nickname = colony_ship
+equip = infinite_power_npc
+equip = ge_s_scanner_04
+equip = sfx_rumble_trading_depot
+equip = colony_ship_shipyard, Shipyard_a01
+equip = colony_ship_shipyard, Shipyard_a02
+equip = colony_ship_shipyard, Shipyard_a03
+equip = colony_ship_shipyard, Shipyard_a04
+equip = colony_ship_shipyard, Shipyard_a05
+equip = colony_ship_shipyard, Shipyard_a06
+equip = colony_ship_shipyard, Shipyard_a07
+equip = colony_ship_shipyard, Shipyard_a08
+equip = colony_ship_shipyard, Shipyard_a09
+equip = colony_ship_shipyard, Shipyard_a10
+equip = colony_ship_shipyard, Shipyard_a11
+equip = colony_ship_shipyard, Shipyard_a12
+
+-add this to your selcet_equip.ini:
+
+[CargoPod]
+nickname = colony_ship_shipyard
+LODranges = 0, 2000, 3000, 15000
+DA_archetype = solar\dockable\shipyard_a.3db
+material_library = solar\Solar_mat_tink.mat
+hit_pts = 999999961690316250000000000000000000.000000
+mass = 2500
+HP_child = HpConnect02
+parent_impulse = 0.010000
+child_impulse = 0.010000
+debris_type = debris_shipyard
+
+To use this you have to overwrite your shipyard_a.3db with the one I gave you in this .zip file (because the original one has no HpConnect02).
+
+
+Have fun and thanks to Why485 for the great model and Nightstalker for importing it into milkshape!
+
+Skotty

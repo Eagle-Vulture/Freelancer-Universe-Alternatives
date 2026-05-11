@@ -1,0 +1,59 @@
+DA_archetype = solar\EAGLEVULTURE\dsy_small_station.cmp
+
+material_library = solar\Solar_mat_dockable02.mat
+
+material_library = solar\solar_mat_misc01.mat
+material_library = solar\Solar_mat_space_tank.mat
+
+DA_archetype = solar\EAGLEVULTURE\dsy_bio_research.cmp
+material_library = solar\Solar_mat_dockable01.mat
+material_library = solar\Solar_mat_dockable02.mat
+material_library = solar\Solar_mat_dockable03.mat
+
+material_library = solar\solar_mat_misc01.mat
+material_library = solar\Solar_mat_space_tank.mat
+material_library = solar\solar_mat_tink.mat
+material_library = ships\utility\utility_transport.mat
+
+DA_archetype = solar\EAGLEVULTURE\dsy_colony.cmp
+material_library = solar\Solar_mat_dockable02.mat
+material_library = solar\Solar_mat_space_tank.mat
+
+DA_archetype = solar\EAGLEVULTURE\ga_ringcorridor.cmp
+material_library = solar\Solar_mat_dockable02.mat
+
+DA_archetype = solar\EAGLEVULTURE\dsy_solararray_half.cmp
+material_library = solar\Solar_mat_dockable02.mat
+material_library = solar\solar_mat_misc01.mat
+material_library = solar\Solar_mat_space_tank.mat
+
+DA_archetype = solar\EAGLEVULTURE\dsy_biodome.cmp
+material_library = solar\Solar_mat_dockable01.mat
+material_library = solar\Solar_mat_dockable02.mat
+material_library = solar\Solar_mat_dockable03.mat
+
+material_library = solar\solar_mat_misc01.mat
+material_library = solar\Solar_mat_space_tank.mat
+material_library = solar\solar_mat_tink.mat
+material_library = ships\utility\utility_transport.mat
+
+DA_archetype = solar\EAGLEVULTURE\dsy_big_biodome.cmp
+material_library = solar\Solar_mat_dockable01.mat
+material_library = solar\Solar_mat_dockable02.mat
+material_library = solar\Solar_mat_dockable03.mat
+
+material_library = solar\solar_mat_misc01.mat
+material_library = solar\Solar_mat_space_tank.mat
+material_library = solar\solar_mat_tink.mat
+material_library = ships\utility\utility_transport.mat
+
+DA_archetype = solar\EAGLEVULTURE\dsy_civilian_outpost.cmp
+material_library = solar\Solar_mat_dockable02.mat
+material_library = ships\utility\utility_transport.mat
+
+DA_archetype = solar\EAGLEVULTURE\dsy_solarbase.cmp
+material_library = solar\Solar_mat_dockable02.mat
+material_library = ships\utility\utility_transport.mat
+
+DA_archetype = solar\dockable\gas_miner_old_alt.cmp
+material_library = solar\Solar_mat_dockable02.mat
