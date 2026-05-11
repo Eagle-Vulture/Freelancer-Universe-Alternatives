@@ -1,0 +1,238 @@
+;Легкие:
+;hp_gun_type = hp_gun_special_1 
+;hp_gun_type = hp_gun_special_2 
+;hp_gun_type = hp_turret_special_1
+;hp_gun_type = hp_turret_special_2
+
+;Тяжелые:
+;hp_gun_type = hp_gun_special_3 
+;hp_gun_type = hp_gun_special_4
+;hp_gun_type = hp_turret_special_3
+;hp_gun_type = hp_turret_special_4
+
+;Сверхтяжелые:
+;hp_gun_type = hp_gun_special_5 
+;hp_gun_type = hp_gun_special_6 
+;hp_gun_type = hp_turret_special_5
+;hp_gun_type = hp_turret_special_6
+
+;hp_gun_type = hp_gun_special_7 - ракеты
+
+;Инфа для ребаланса. Ванильные данные пушек:
+;фракция, класс первой пушки - урон первой пушки (курпус-щит) - энергозатраты
+
+;fc_j_gun01, 2, 30.6 - 0 - 9.18
+;fc_lr_gun01, 1, 19.6 - 0 - 6.11
+;fc_ou_gun01, 1, 126.4 - 0 - 31.6
+;fc_ou_gun02, 5, 113.8 - 0 - 23.7
+;fc_c_gun01, 5, 121.2 - 0 - 24.24
+;fc_c_gun02, 5, 10.1 - 303 - 24.24
+;fc_or_gun01, 5, 40.4 - 0 - 12.62
+;fc_or_gun02, 5, 101 - 0 - 20.2
+;gd_gm_gun01, 6, 79.1 - 0 - 19.76
+;gd_im_gun01, 3, 49.8 - 0 - 14.94
+;gd_bh_gun01, 2, 20.4 - 0 - 7.65
+;gd_bh_gun02, 2, 49 - 0 - 15.3
+;fc_rh_gun01, 5, 53.9 - 0 - 16.83
+;fc_bd_gun01, 5, 40.4 - 0 - 12.62
+;fc_b_gun01, 6, 210.8 - 0 - 52.7
+;gd_z_gun01, 3, 41.5 - 0 - 12.45
+;fc_lh_gun01, 4, 79 - 0 - 23.7
+;fc_h_gun01, 6, 158.1 - 0 - 32.94
+;fc_m_gun01, 5, 101 - 0 - 20.2
+;fc_g_gun01, 3, 41.5 - 0 - 9.96
+;fc_u_gun01, 4, 79 - 0 - 15.8
+;fc_gc_gun01, 4, 52.7 - 0 - 15.8
+;fc_lwb_gun01, 5, 134.7 - 0 - 32.32
+;fc_fa_gun01, 4, 126.4 - 0 - 21.07
+;fc_x_gun01, 2, 73.4 - 0 - 15.3
+;li_gun01, 1, 16.3 - 0 -  5.09
+;li_gun02, 1, 97.8 - 0 - 20.38
+;br_gun01, 4, 79 - 0 - 23.7
+;br_gun02, 4, 94.8 - 0 - 23.7
+;ku_gun01, 5, 101 - 0 - 20.2
+;ku_gun02, 5, 50.5 - 0 - 15.15
+;rh_gun01, 6, 70.3 - 0 - 26.35
+;rh_gun02, 6, 316.2 - 0 - 65.88
+;co_gun01, 1, 14.7 - 0 - 4.58
+;co_gun02, 2, 4.6 - 153 - 9.18
+
+;Battleship Turrets (if 1 barrel)
+
+[CDK1_battleship_turret01_ammo]
+hull_damage = 240
+energy_damage = 0
+
+[CDK1_battleship_turret01]
+refire_delay = 2
+
+[CDK1_battleship_turret02_ammo]
+hull_damage = 84
+energy_damage = 0
+
+[CDK1_battleship_turret01]
+refire_delay = 0.5
+
+[CDK1_battleship_turret03_ammo]
+hull_damage = 42
+energy_damage = 0
+
+[CDK1_battleship_turret03]
+refire_delay = 0.5
+
+[CDK1_battleship_turret04_ammo]
+hull_damage = 15
+energy_damage = 0
+
+[CDK1_battleship_turret04]
+refire_delay = 0.1
+
+;Battleship Turrets (if 2 barrels)
+
+[CDK2_battleship_turret01_ammo]
+hull_damage = 120
+energy_damage = 0
+
+[CDK2_battleship_turret01]
+refire_delay = 2
+
+[CDK2_battleship_turret02_ammo]
+hull_damage = 42
+energy_damage = 0
+
+[CDK2_battleship_turret01]
+refire_delay = 0.5
+
+[CDK2_battleship_turret03_ammo]
+hull_damage = 21
+energy_damage = 0
+
+[CDK2_battleship_turret03]
+refire_delay = 0.5
+
+[CDK2_battleship_turret04_ammo]
+hull_damage = 7.5
+energy_damage = 0
+
+[CDK2_battleship_turret04]
+refire_delay = 0.1
+
+;Battleship Turrets (if 3 barrels)
+
+[CDK3_battleship_turret01_ammo]
+hull_damage = 80
+energy_damage = 0
+
+[CDK3_battleship_turret01]
+refire_delay = 2
+
+[CDK3_battleship_turret02_ammo]
+hull_damage = 28
+energy_damage = 0
+
+[CDK3_battleship_turret01]
+refire_delay = 0.5
+
+[CDK3_battleship_turret03_ammo]
+hull_damage = 14
+energy_damage = 0
+
+[CDK3_battleship_turret03]
+refire_delay = 0.5
+
+[CDK3_battleship_turret04_ammo]
+hull_damage = 5
+energy_damage = 0
+
+[CDK3_battleship_turret04]
+refire_delay = 0.1
+
+;Cruiser Turrets (if 1 barrel)
+
+[CDK1_cruiser_turret01_ammo]
+hull_damage = 240
+energy_damage = 0
+
+[CDK1_cruiser_turret01]
+refire_delay = 2
+
+[CDK1_cruiser_turret02_ammo]
+hull_damage = 84
+energy_damage = 0
+
+[CDK1_cruiser_turret01]
+refire_delay = 0.5
+
+[CDK1_cruiser_turret03_ammo]
+hull_damage = 42
+energy_damage = 0
+
+[CDK1_cruiser_turret03]
+refire_delay = 0.5
+
+[CDK1_cruiser_turret04_ammo]
+hull_damage = 15
+energy_damage = 0
+
+[CDK1_cruiser_turret04]
+refire_delay = 0.1
+
+;Cruiser Turrets (if 2 barrels)
+
+[CDK2_cruiser_turret01_ammo]
+hull_damage = 120
+energy_damage = 0
+
+[CDK2_cruiser_turret01]
+refire_delay = 2
+
+[CDK2_cruiser_turret02_ammo]
+hull_damage = 42
+energy_damage = 0
+
+[CDK2_cruiser_turret01]
+refire_delay = 0.5
+
+[CDK2_cruiser_turret03_ammo]
+hull_damage = 21
+energy_damage = 0
+
+[CDK2_cruiser_turret03]
+refire_delay = 0.5
+
+[CDK2_cruiser_turret04_ammo]
+hull_damage = 7.5
+energy_damage = 0
+
+[CDK2_cruiser_turret04]
+refire_delay = 0.1
+
+;Cruiser Turrets (if 3 barrels)
+
+[CDK3_cruiser_turret01_ammo]
+hull_damage = 80
+energy_damage = 0
+
+[CDK3_cruiser_turret01]
+refire_delay = 2
+
+[CDK3_cruiser_turret02_ammo]
+hull_damage = 28
+energy_damage = 0
+
+[CDK3_cruiser_turret01]
+refire_delay = 0.5
+
+[CDK3_cruiser_turret03_ammo]
+hull_damage = 14
+energy_damage = 0
+
+[CDK3_cruiser_turret03]
+refire_delay = 0.5
+
+[CDK3_cruiser_turret04_ammo]
+hull_damage = 5
+energy_damage = 0
+
+[CDK3_cruiser_turret04]
+refire_delay = 0.1
